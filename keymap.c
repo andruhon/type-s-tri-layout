@@ -18,6 +18,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
+enum custom_keycodes {
+  // Please note it won't show in VIA and VIAL
+  AR_SCRN
+  // TODO try using QK_MACRO_0
+
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // BASE
     [0] = LAYOUT_split_3x5_3(
@@ -49,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // s, d, f, h, n, k and l are reserved personal macros (those hand-twisting combinations like WIN+SHIFT+S)
     [3] = LAYOUT_split_3x5_3(
         KC_ESC,  DF(0),   DF(1),   DF(2),   KC_VOLU,                            KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,  KC_RBRC,
-        KC_TAB,  XXXXXXX, XXXXXXX, XXXXXXX, KC_MUTE,                            XXXXXXX,  KC_QUOT, XXXXXXX, XXXXXXX,  KC_BSLS,
+        KC_TAB, AR_SCRN, XXXXXXX, XXXXXXX, KC_MUTE,                            XXXXXXX,  KC_QUOT, XXXXXXX, XXXXXXX,  KC_BSLS,
         KC_LSFT, KC_LCTL, KC_LGUI, KC_LALT, KC_VOLD,                            KC_DEL,   KC_RALT, KC_RGUI, KC_RCTL,  KC_RSFT,
                                 XXXXXXX, XXXXXXX, _______,           _______,  XXXXXXX,  XXXXXXX
     )
@@ -155,9 +162,14 @@ bool oled_task_user(void) {
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  if (record->event.pressed) {
-    set_keylog(keycode, record);
-  }
+    switch (keycode) {
+      case AR_SCRN:  // Types ../ to go up a directory on the shell.
+        if (record->event.pressed) {
+          // GUI+Shift+s - capture area of screen (in both KDE and windows)
+          SEND_STRING(SS_LGUI(SS_LSFT("s")));
+        }
+        return false;
+    }
   return true;
 }
 #endif // OLED_ENABLE
