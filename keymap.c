@@ -18,10 +18,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
+/**
+ * Please note it won't show in VIA and VIAL.
+ * Unfortunately using QK_MACRO_1 as recommended
+ */
 enum custom_keycodes {
-  // Please note it won't show in VIA and VIAL
-  AR_SCRN
-  // TODO try using QK_MACRO_0
+  //
+  MY_MACRO_S,
+  MY_MACRO_L,
+  MY_MACRO_EN
 
 };
 
@@ -55,10 +60,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // ADJUST (HOLD BOTH LOWR AND UPPR).
     // s, d, f, h, n, k and l are reserved personal macros (those hand-twisting combinations like WIN+SHIFT+S)
     [3] = LAYOUT_split_3x5_3(
-        KC_ESC,  DF(0),   DF(1),   DF(2),   KC_VOLU,                            KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,  KC_RBRC,
-        KC_TAB, AR_SCRN, XXXXXXX, XXXXXXX, KC_MUTE,                            XXXXXXX,  KC_QUOT, XXXXXXX, XXXXXXX,  KC_BSLS,
-        KC_LSFT, KC_LCTL, KC_LGUI, KC_LALT, KC_VOLD,                            KC_DEL,   KC_RALT, KC_RGUI, KC_RCTL,  KC_RSFT,
-                                XXXXXXX, XXXXXXX, _______,           _______,  XXXXXXX,  XXXXXXX
+        KC_ESC,  DF(0),   DF(1),   DF(2),   KC_VOLU,                             KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,    KC_RBRC,
+        KC_TAB, MY_MACRO_S, XXXXXXX, XXXXXXX, KC_MUTE,                           XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX,    KC_BSLS,
+        KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_VOLD,                             KC_DEL,   KC_RGUI, KC_RALT, KC_RCTL,    KC_RSFT,
+                                XXXXXXX, XXXXXXX, _______,           _______,  MY_MACRO_EN,  XXXXXXX
     )
 };
 
@@ -158,18 +163,28 @@ bool oled_task_user(void) {
     } else {
         oled_render_logo();
     }
-    return false;
+       return false;
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-      case AR_SCRN:  // Types ../ to go up a directory on the shell.
-        if (record->event.pressed) {
-          // GUI+Shift+s - capture area of screen (in both KDE and windows)
-          SEND_STRING(SS_LGUI(SS_LSFT("s")));
+    if (record->event.pressed) {
+        switch (keycode) {
+            case MY_MACRO_S:
+                // GUI+Shift+s - capture area of screen (in both KDE and windows)
+                SEND_STRING(SS_DOWN(X_LGUI)SS_DOWN(X_LSFT)"s"SS_UP(X_LSFT)SS_UP(X_LGUI));
+                return false;
+// // FIXME this for some reason simply triggers 6 from UPPER
+//            case MY_MACRO_L:
+//                SEND_STRING(SS_DOWN(X_LALT)SS_DOWN(X_LSFT)"l"SS_UP(X_LSFT)SS_UP(X_LALT));
+//                return false;
+            case MY_MACRO_EN:
+                SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_ENT)SS_UP(X_LSFT)SS_UP(X_LCTL));
+                return false;
         }
-        return false;
     }
-  return true;
+
+    return true;
 }
+
+
 #endif // OLED_ENABLE

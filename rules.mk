@@ -1,4 +1,3 @@
-BOOTLOADER = tinyuf2
 VIA_ENABLE          = yes
 VIAL_ENABLE         = yes
 LTO_ENABLE          = yes
