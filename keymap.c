@@ -168,6 +168,7 @@ bool oled_task_user(void) {
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     if (record->event.pressed) {
+        set_keylog(keycode, record);
         switch (keycode) {
             case MY_MACRO_S:
                 // GUI+Shift+s - capture area of screen (in both KDE and windows)
@@ -179,6 +180,15 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 //                return false;
             case MY_MACRO_EN:
                 SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_ENT)SS_UP(X_LSFT)SS_UP(X_LCTL));
+                return false;
+            case DF(0):
+                oled_write_ln_P(PSTR(""), false);
+                return false;
+            case DF(1):
+                oled_write_ln_P(PSTR("!L"), false);
+                return false;
+            case DF(2):
+                oled_write_ln_P(PSTR("!U"), false);
                 return false;
         }
     }
