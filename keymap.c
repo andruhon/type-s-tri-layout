@@ -50,8 +50,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // UPPR (hold UPPR and N KC_BTN1 to drag and drop)
     [2] = LAYOUT_split_3x5_3(
         KC_ESC,  KC_BTN2, KC_MS_U, KC_BTN1, KC_WH_U,                            KC_MINUS, KC_7,    KC_8,    KC_9,     KC_0,
-        KC_GRAVE,KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,                            KC_EQUAL, KC_4,    KC_5,    KC_6,     KC_DOT,
-        KC_LSFT, KC_QUOT, KC_COMM, KC_DOT,  KC_BTN3,                            KC_BTN1,  KC_1,    KC_2,    KC_3,     KC_ACL0,
+        KC_QUOT, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,                            KC_EQUAL, KC_4,    KC_5,    KC_6,     KC_DOT,
+        KC_LSFT, KC_BSLS, KC_COMM, KC_DOT,  KC_BTN3,                            KC_BTN1,  KC_1,    KC_2,    KC_3,     KC_ACL0,
                                 KC_LALT, KC_LCTL, _______,           _______, KC_BTN3, KC_RALT
     ),
     // use ACL0 for precise mouse movements
@@ -60,9 +60,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // ADJUST (HOLD BOTH LOWR AND UPPR).
     // s, d, f, h, n, k and l are reserved personal macros (those hand-twisting combinations like WIN+SHIFT+S)
     [3] = LAYOUT_split_3x5_3(
-        KC_ESC,  DF(0),   DF(1),   DF(2),   KC_VOLU,                             KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,    KC_RBRC,
-        KC_TAB, MY_MACRO_S, XXXXXXX, XXXXXXX, KC_MUTE,                           XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX,    KC_BSLS,
-        KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_VOLD,                             KC_DEL,   KC_RGUI, KC_RALT, KC_RCTL,    KC_RSFT,
+        KC_ESC,  DF(0),   DF(1),   DF(2),   KC_VOLU,                             KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,  KC_RBRC,
+        KC_TAB, MY_MACRO_S, XXXXXXX, XXXXXXX,  KC_MUTE,                          XXXXXXX,  KC_GRAVE,XXXXXXX, XXXXXXX,  KC_ENT,
+        KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_VOLD,                             KC_DEL,   KC_RGUI, KC_RALT, KC_RCTL,  KC_RSFT,
                                 XXXXXXX, XXXXXXX, _______,           _______,  MY_MACRO_EN,  XXXXXXX
     )
 };
@@ -183,12 +183,18 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 return false;
             case DF(0):
                 oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
                 return false;
             case DF(1):
-                oled_write_ln_P(PSTR("!L"), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR("LOWR LOCK"), false);
                 return false;
             case DF(2):
-                oled_write_ln_P(PSTR("!U"), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR("RISE LOCK"), false);
                 return false;
         }
     }
