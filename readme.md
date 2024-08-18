@@ -7,7 +7,7 @@ Use on your risk.
 My Corne is using Pro Micro controller. It needs double tap on reset to switch to bootloader mode.
 
 I'm using IntelliJ IDEA in my work, and hoped to build layout convenient for me.
-Default layout is conventional QUERTY, I still have to use my laptop, so I don't want to learn something non-QUERTY.
+Default layout is conventional QWZERTY, I still have to use my laptop, so I don't want to learn something non-QWERTY.
 
 ## Keyboard matrix
 ![Matrix](matrix.png)
@@ -26,6 +26,8 @@ cd to vial qmk `cd vial-qmk/`
 * My corne is using Pro Micro controller. It needs double tap on reset to switch to bootloader mode. 
 * Once it is in bootloader mode the keyboard becomes available as new drive. uf2 file can be copied into this drive. 
 * Repeat for another side.
+
+see also [Flashing cheatsheet](flashing-cheatsheet.md)
 
 ## Links
 https://mattgemmell.scot/the-corne-keyboard/
