@@ -1,3 +1,5 @@
+# I ended up never using the vial app actually
+# TODO convert it to plain QMK build
 VIA_ENABLE          = yes
 VIAL_ENABLE         = yes
 LTO_ENABLE          = yes

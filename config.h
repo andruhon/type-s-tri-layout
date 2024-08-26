@@ -18,6 +18,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+// Keyboard would not work on cold computer boot without settings
+#define SPLIT_WATCHDOG_ENABLE
+
 #define VIAL_KEYBOARD_UID {0x5D, 0x57, 0x3F, 0xDE, 0xD0, 0xC5, 0x10, 0xA4}
 #define VIAL_UNLOCK_COMBO_ROWS {0, 0}
 #define VIAL_UNLOCK_COMBO_COLS {1, 2}
