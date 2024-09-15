@@ -1,2 +1,4 @@
+VIA_ENABLE = no
+
 TRI_LAYER_ENABLE = yes
 AUTO_SHIFT_ENABLE 	= yes

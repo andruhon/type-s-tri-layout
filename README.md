@@ -22,3 +22,12 @@ to make sure the uf2 file is flashed to RPI-RP2
 ```
 qmk flash -kb crkbd -km andruhon -e CONVERT_TO=promicro_rp2040
 ```
+
+## Keyboard matrix and layout
+Generated with http://www.keyboard-layout-editor.com/.
+See also [Matrix](matrix.json) ![layout](layout.json)
+
+### Layout
+
+### Matrix
+![Matrix](matrix.png)
