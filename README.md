@@ -25,9 +25,10 @@ qmk flash -kb crkbd -km andruhon -e CONVERT_TO=promicro_rp2040
 
 ## Keyboard matrix and layout
 Generated with http://www.keyboard-layout-editor.com/.
-See also [Matrix](matrix.json) ![layout](layout.json)
+See also [Matrix](matrix.json) [layout](layout.json)
 
 ### Layout
+![Layout](layout.png)
 
 ### Matrix
 ![Matrix](matrix.png)
