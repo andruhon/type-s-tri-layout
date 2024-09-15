@@ -184,18 +184,18 @@
     "<i class='fa fa-circle'></i>\nFn1\n\n\n\n\nLower",
     {
       "x": -0.25,
-      "t": "#ff0000\n#000000",
-      "f2": 1,
-      "d": true
-    },
-    "<i class='fa fa-circle'></i>\nFn2\n\n\n\n\nRaise",
-    {
-      "x": -0.25,
       "t": "#000000\n#000000",
       "f2": 1,
       "d": true
     },
     "<i class='fa fa-circle'></i>\nFn1+Fn2\n\n\n\n\nAdjust",
+    {
+      "x": -0.25,
+      "t": "#ff0000\n#000000",
+      "f2": 1,
+      "d": true
+    },
+    "<i class='fa fa-circle'></i>\nFn2\n\n\n\n\nRaise",
     {
       "x": 2.5,
       "t": "#000000",
