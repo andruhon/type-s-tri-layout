@@ -18,6 +18,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
+/**
+ * Custom macro keycodes
+ * Please note it won't show in VIA and VIAL.
+ * see process_record_user down below
+ */
+// enum custom_keycodes {
+//   MY_MACRO_S,
+//   MY_MACRO_L,
+//   MY_MACRO_EN, // Ctrl+Shift+Enter - really helpful in IntelliJ Idea
+//   MY_MACRO_CSA // Ctrl+Shift+A     - really helpful in IntelliJ Idea
+// };
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // BASE
     [0] = LAYOUT_split_3x5_3(
@@ -49,8 +61,48 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // s, d, f, h, n, k and l are reserved personal macros (those hand-twisting combinations like WIN+SHIFT+S)
     [3] = LAYOUT_split_3x5_3(
         KC_ESC,    DF(0),   DF(1),   DF(2), KC_VOLU,                            KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,  XXXXXXX,
-        KC_TAB,  XXXXXXX, XXXXXXX, XXXXXXX, KC_MUTE,                            XXXXXXX,  KC_GRAVE,XXXXXXX, XXXXXXX,  KC_RBRC,
+        KC_TAB,  MY_MACRO_S, XXXXXXX, XXXXXXX, KC_MUTE,                            XXXXXXX,  KC_GRAVE,XXXXXXX, XXXXXXX,  KC_RBRC,
         KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_VOLD,                            KC_DEL,   KC_RGUI, KC_RALT, KC_RCTL,  KC_RSFT,
                                 XXXXXXX, XXXXXXX, _______,           _______,  XXXXXXX,  XXXXXXX
     )
 };
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    if (record->event.pressed) {
+        switch (keycode) {
+            // // Uncomment custom_keycodes enum above if you want to uncomment this block
+            // case MY_MACRO_S:
+            //     // GUI+Shift+s - capture area of screen (in both KDE and windows)
+            //     // FIXME this for some reason triggers for any unused adjust key
+            //     SEND_STRING(SS_DOWN(X_LGUI)SS_DOWN(X_LSFT)"s"SS_UP(X_LSFT)SS_UP(X_LGUI));
+            //     return false;
+            // case MY_MACRO_L:
+            //     // FIXME this for some reason simply triggers 6 from RISE
+            //     SEND_STRING(SS_DOWN(X_LALT)SS_DOWN(X_LSFT)"l"SS_UP(X_LSFT)SS_UP(X_LALT));
+            //     return false;
+            // case MY_MACRO_EN:
+            //     SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_ENT)SS_UP(X_LSFT)SS_UP(X_LCTL));
+            //     return false;
+            // case MY_MACRO_CSA:
+            //     SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)"a"SS_UP(X_LSFT)SS_UP(X_LCTL));
+            //     return false;
+            case DF(0):
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
+                return false;
+            case DF(1):
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR("LOWR LOCK"), false);
+                return false;
+            case DF(2):
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR(""), false);
+                oled_write_ln_P(PSTR("RISE LOCK"), false);
+                return false;
+        }
+    }
+
+    return true;
+}
