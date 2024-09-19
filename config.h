@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+// Keyboard would not work on cold computer boot without settings
+#define SPLIT_WATCHDOG_ENABLE
+
 #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 #define TAPPING_TERM 180
 #define AUTO_SHIFT_TIMEOUT 200
