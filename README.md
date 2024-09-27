@@ -1,5 +1,5 @@
 I realised that I actually don't quite use VIAL, so I decided
-to declutter my layout to be QMK only.
+to de-clutter my layout to be QMK only.
 
 ## Setting up
 Install QMK following https://docs.qmk.fm/newbs_getting_started
@@ -33,11 +33,11 @@ qmk flash -kb crkbd -km andruhon -bl uf2-split-right -e CONVERT_TO=promicro_rp20
 ```
 
 ## Keyboard matrix and layout
-Generated with http://www.keyboard-layout-editor.com/.
-See also [Matrix](matrix.json) [layout](layout.json)
 
 ### Layout
-![Layout](layout.png)
+![Layout](keyboard-layout-inkscape.svg)
 
 ### Matrix
+Generated with http://www.keyboard-layout-editor.com/.
+See also [Matrix](matrix.json)
 ![Matrix](matrix.png)
