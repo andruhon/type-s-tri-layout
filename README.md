@@ -35,7 +35,7 @@ qmk flash -kb crkbd -km andruhon -bl uf2-split-right -e CONVERT_TO=promicro_rp20
 ## Keyboard matrix and layout
 
 ### Layout
-![Layout](keyboard-layout-inkscape.svg)
+![Layout](keyboard-layout-inkscape.png)
 
 ### Matrix
 Generated with http://www.keyboard-layout-editor.com/.
