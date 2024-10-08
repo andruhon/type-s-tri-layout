@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    // BASE
+    // BASE (I personally ended up completely removing 3,3 KC_LALT and 7,3 KC_RCTL)
     [0] = LAYOUT_split_3x5_3(
         KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                               KC_Y,     KC_U,     KC_I,    KC_O,     KC_P,
         KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                               KC_H,     KC_J,     KC_K,    KC_L,     KC_SCLN,
@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,  KC_F7,   KC_F8,   KC_F9,   KC_F12,                             KC_PGUP,  KC_HOME, KC_UP,   KC_END,   KC_BSPC,
         KC_GRAVE,KC_F4,   KC_F5,   KC_F6,   KC_F10,                             KC_PGDN,  KC_LEFT, KC_DOWN, KC_RIGHT, KC_QUOT,
         KC_LSFT, KC_F1,   KC_F2,   KC_F3,   KC_F11,                             KC_DEL,   KC_TAB,  KC_INS,  KC_APP,   KC_LSFT,
-                                KC_LCTL, KC_LGUI, _______,           _______,  KC_ENT,  KC_RALT
+                                KC_LALT, KC_SPC, _______,           _______,  KC_ENT,  KC_RCTL
     ),
 
     // UPPR (hold UPPR and N KC_BTN1 to drag and drop)
@@ -52,18 +52,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,  KC_BTN2, KC_MS_U, KC_BTN1, KC_WH_U,                            KC_MINUS, KC_7,    KC_8,    KC_9,     KC_BSPC,
         KC_QUOT, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,                            KC_EQUAL, KC_4,    KC_5,    KC_6,     KC_0,
         KC_LSFT, KC_BSLS, KC_COMM, KC_DOT,  KC_BTN3,                            KC_BTN1,  KC_1,    KC_2,    KC_3,     KC_ACL0,
-                                KC_LCTL, KC_SPC, _______,            _______,  KC_ENT, KC_RALT
+                                KC_LALT, KC_SPC, _______,            _______,  KC_ENT, KC_RCTL
     ),
     // use ACL0 for precise mouse movements
 
 
     // ADJUST (HOLD BOTH LOWR AND UPPR).
-    // s, d, f, h, n, k and l are reserved personal macros (those hand-twisting combinations like WIN+SHIFT+S)
+    // df jkl and df hkl are handy to type lambdas in TS and Java producing ()=>{} and ()->{} appropriately
     [3] = LAYOUT_split_3x5_3(
-        KC_ESC,    DF(0),   DF(1),   DF(2), KC_VOLU,                            KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,  XXXXXXX,
-        KC_TAB,  XXXXXXX, XXXXXXX, XXXXXXX, KC_MUTE,                            XXXXXXX,  KC_GRAVE,XXXXXXX, XXXXXXX,  KC_RBRC,
+        KC_ESC,    DF(0),   DF(1),   DF(2), KC_VOLU,                            KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,  KC_RBRC,
+        KC_TAB,  KC_PIPE, KC_LPRN, KC_RPRN, KC_MUTE,                            KC_PMNS,  KC_PEQL, KC_RABK, KC_LCBR,  KC_RCBR,
         KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_VOLD,                            KC_DEL,   KC_RGUI, KC_RALT, KC_RCTL,  KC_RSFT,
-                                XXXXXXX, XXXXXXX, _______,           _______,  KC_ENT,  XXXXXXX
+                                KC_LALT, KC_SPC, _______,           _______,  KC_ENT,  KC_RCTL
     )
 };
 
