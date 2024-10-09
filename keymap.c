@@ -58,51 +58,52 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
     // ADJUST (HOLD BOTH LOWR AND UPPR).
-    // df jkl and df hkl are handy to type lambdas in TS and Java producing ()=>{} and ()->{} appropriately
+    // middle row lambdas in TS and Java producing ()=>{} and ()->{} appropriately
     [3] = LAYOUT_split_3x5_3(
-        KC_ESC,    DF(0),   DF(1),   DF(2), KC_VOLU,                            KC_PSCR,  KC_CAPS, XXXXXXX, KC_LBRC,  KC_RBRC,
-        KC_TAB,  KC_PIPE, KC_LPRN, KC_RPRN, KC_MUTE,                            KC_PMNS,  KC_PEQL, KC_RABK, KC_LCBR,  KC_RCBR,
-        KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_VOLD,                            KC_DEL,   KC_RGUI, KC_RALT, KC_RCTL,  KC_RSFT,
+        KC_ESC,  KC_VOLD, KC_MUTE, KC_VOLU, KC_PAUSE,                           KC_PSCR,  KC_CAPS, KC_LBRC, KC_RBRC,  KC_BSPC,
+        KC_TAB,  KC_GRAVE,KC_LPRN, KC_RPRN, KC_MINUS,                           KC_EQUAL, KC_RABK, KC_LCBR, KC_RCBR,  KC_BSLS,
+        KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_DEL,                             KC_ENT,   KC_RGUI, KC_RALT, KC_RCTL,  KC_RSFT,
                                 KC_LALT, KC_SPC, _______,           _______,  KC_ENT,  KC_RCTL
     )
 };
 
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    if (record->event.pressed) {
-        switch (keycode) {
-            // // Uncomment custom_keycodes enum above if you want to uncomment this block
-            // case MY_MACRO_S:
-            //     // GUI+Shift+s - capture area of screen (in both KDE and windows)
-            //     // FIXME this for some reason triggers for any unused adjust key
-            //     SEND_STRING(SS_DOWN(X_LGUI)SS_DOWN(X_LSFT)"s"SS_UP(X_LSFT)SS_UP(X_LGUI));
-            //     return false;
-            // case MY_MACRO_L:
-            //     // FIXME this for some reason simply triggers 6 from RISE
-            //     SEND_STRING(SS_DOWN(X_LALT)SS_DOWN(X_LSFT)"l"SS_UP(X_LSFT)SS_UP(X_LALT));
-            //     return false;
-            // case MY_MACRO_EN:
-            //     SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_ENT)SS_UP(X_LSFT)SS_UP(X_LCTL));
-            //     return false;
-            // case MY_MACRO_CSA:
-            //     SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)"a"SS_UP(X_LSFT)SS_UP(X_LCTL));
-            //     return false;
-            case DF(0):
-                oled_write_ln_P(PSTR(""), false);
-                oled_write_ln_P(PSTR(""), false);
-                oled_write_ln_P(PSTR(""), false);
-                return false;
-            case DF(1):
-                oled_write_ln_P(PSTR(""), false);
-                oled_write_ln_P(PSTR(""), false);
-                oled_write_ln_P(PSTR("LOWR LOCK"), false);
-                return false;
-            case DF(2):
-                oled_write_ln_P(PSTR(""), false);
-                oled_write_ln_P(PSTR(""), false);
-                oled_write_ln_P(PSTR("RISE LOCK"), false);
-                return false;
-        }
-    }
-
-    return true;
-}
+// bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+//     if (record->event.pressed) {
+//         switch (keycode) {
+//             // // Uncomment custom_keycodes enum above if you want to uncomment this block
+//             // case MY_MACRO_S:
+//             //     // GUI+Shift+s - capture area of screen (in both KDE and windows)
+//             //     // FIXME this for some reason triggers for any unused adjust key
+//             //     SEND_STRING(SS_DOWN(X_LGUI)SS_DOWN(X_LSFT)"s"SS_UP(X_LSFT)SS_UP(X_LGUI));
+//             //     return false;
+//             // case MY_MACRO_L:
+//             //     // FIXME this for some reason simply triggers 6 from RISE
+//             //     SEND_STRING(SS_DOWN(X_LALT)SS_DOWN(X_LSFT)"l"SS_UP(X_LSFT)SS_UP(X_LALT));
+//             //     return false;
+//             // case MY_MACRO_EN:
+//             //     SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)SS_TAP(X_ENT)SS_UP(X_LSFT)SS_UP(X_LCTL));
+//             //     return false;
+//             // case MY_MACRO_CSA:
+//             //     SEND_STRING(SS_DOWN(X_LCTL)SS_DOWN(X_LSFT)"a"SS_UP(X_LSFT)SS_UP(X_LCTL));
+//             //     return false;
+//             // Indicate on display when layout is locked
+//             case DF(0):
+//                 oled_write_ln_P(PSTR(""), false);
+//                 oled_write_ln_P(PSTR(""), false);
+//                 oled_write_ln_P(PSTR(""), false);
+//                 return false;
+//             case DF(1):
+//                 oled_write_ln_P(PSTR(""), false);
+//                 oled_write_ln_P(PSTR(""), false);
+//                 oled_write_ln_P(PSTR("LOWR LOCK"), false);
+//                 return false;
+//             case DF(2):
+//                 oled_write_ln_P(PSTR(""), false);
+//                 oled_write_ln_P(PSTR(""), false);
+//                 oled_write_ln_P(PSTR("RISE LOCK"), false);
+//                 return false;
+//         }
+//     }
+//
+//     return true;
+// }
