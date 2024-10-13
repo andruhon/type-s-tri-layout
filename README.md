@@ -1,5 +1,6 @@
 I realised that I actually don't quite use VIAL, so I decided
 to de-clutter my layout to be QMK only.
+The old VIAL stuff can be found in vial. Branch.
 
 ## Setting up
 Install QMK following https://docs.qmk.fm/newbs_getting_started
@@ -35,6 +36,7 @@ qmk flash -kb crkbd -km andruhon -bl uf2-split-right -e CONVERT_TO=promicro_rp20
 ## Keyboard matrix and layout
 
 ### Layout
+WIP, check [keymap.c](keymap.c) for full layout for now.
 ![Layout](keyboard-layout-inkscape.png)
 
 ### Matrix
