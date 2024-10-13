@@ -6,7 +6,10 @@
    version="1.1"
    id="svg157"
    sodipodi:docname="keyboard-layout-inkscape.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:export-filename="keyboard-layout-inkscape-plain.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -21,15 +24,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.3517944"
-     inkscape:cx="445.33399"
-     inkscape:cy="159.78761"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="451.84122"
+     inkscape:cy="243.59828"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g67" />
+     inkscape:current-layer="layer3"
+     showguides="true" />
   <style
      type="text/css"
      id="style1">
@@ -320,83 +324,17 @@
          id="rect139" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="563.2113"
-         y="204.88159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="556.97357"
+         y="203.64262"
          id="text171-1-922"
          inkscape:label="Ctrl (right thumb)"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-4"
-           x="563.2113"
-           y="204.88159">Ctrl</tspan></text>
-    </g>
-    <g
-       class="  keycap"
-       id="g115"
-       transform="matrix(1.0002704,0,0,0.99999952,15.00142,15.000066)"
-       inkscape:label=". &gt;"
-       style="display:inline">
-      <!-- Outer Border -->
-      <rect
-         x="622"
-         y="115.75"
-         width="52"
-         height="52"
-         rx="5"
-         fill="#cccccc"
-         class="outer border"
-         id="rect112" />
-      <!-- Outer Fill -->
-      <rect
-         x="622"
-         y="115.75"
-         width="52"
-         height="52"
-         rx="5"
-         fill="#cccccc"
-         id="rect113" />
-      <!-- Inner Border -->
-      <rect
-         x="628"
-         y="118.75"
-         width="40"
-         height="40"
-         rx="5"
-         fill="#fcfcfc"
-         class="inner border"
-         id="rect114" />
-      <!-- Inner Fill -->
-      <rect
-         x="628"
-         y="118.75"
-         width="40"
-         height="40"
-         rx="5"
-         fill="#fcfcfc"
-         id="rect115" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="629.32233"
-         y="129.02544"
-         id="text171-1-03"
-         inkscape:label=". &gt;"><tspan
-           sodipodi:role="line"
-           id="tspan171-8-61"
-           x="629.32233"
-           y="129.02544">. &gt;</tspan></text>
-      <text
-         xml:space="preserve"
-         style="text-align:start;text-anchor:start;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-opacity:1"
-         x="639.24506"
-         y="167.15794"
-         id="text166-8"
-         inkscape:label="Ctrl (.)"><tspan
-           sodipodi:role="line"
-           id="tspan166-8"
-           x="639.24506"
-           y="167.15794">Ctrl</tspan></text>
+           x="556.97357"
+           y="203.64262"
+           style="stroke-width:0.999865">Ctrl</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -579,15 +517,15 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
-         x="683.84875"
-         y="143.07784"
+         x="684.84863"
+         y="155.57614"
          id="text171-1-92-4"
-         transform="scale(0.99986458,1.0001354)"
+         transform="scale(0.9998646,1.0001354)"
          inkscape:label="/ ?"><tspan
            sodipodi:role="line"
            id="tspan171-8-5-8"
-           x="683.84875"
-           y="143.07784"
+           x="684.84863"
+           y="155.57614"
            style="stroke-width:0.999865">/ ?</tspan></text>
       <text
          xml:space="preserve"
@@ -601,6 +539,73 @@
            id="tspan165-9"
            x="706.00897"
            y="195.48244">Shift</tspan></text>
+    </g>
+    <g
+       class="  keycap"
+       id="g115"
+       transform="matrix(1.0002704,0,0,0.99999952,15.00142,15.000066)"
+       inkscape:label=". &gt;"
+       style="display:inline">
+      <!-- Outer Border -->
+      <rect
+         x="622"
+         y="115.75"
+         width="52"
+         height="52"
+         rx="5"
+         fill="#cccccc"
+         class="outer border"
+         id="rect112" />
+      <!-- Outer Fill -->
+      <rect
+         x="622"
+         y="115.75"
+         width="52"
+         height="52"
+         rx="5"
+         fill="#cccccc"
+         id="rect113" />
+      <!-- Inner Border -->
+      <rect
+         x="628"
+         y="118.75"
+         width="40"
+         height="40"
+         rx="5"
+         fill="#fcfcfc"
+         class="inner border"
+         id="rect114" />
+      <!-- Inner Fill -->
+      <rect
+         x="628"
+         y="118.75"
+         width="40"
+         height="40"
+         rx="5"
+         fill="#fcfcfc"
+         id="rect115" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         x="630.32208"
+         y="141.52544"
+         id="text171-1-03"
+         inkscape:label=". &gt;"><tspan
+           sodipodi:role="line"
+           id="tspan171-8-61"
+           x="630.32208"
+           y="141.52544">. &gt;</tspan></text>
+      <text
+         xml:space="preserve"
+         style="text-align:start;text-anchor:start;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-opacity:1"
+         x="639.24506"
+         y="167.15794"
+         id="text166-8"
+         inkscape:label="Ctrl (.)"><tspan
+           sodipodi:role="line"
+           id="tspan166-8"
+           x="639.24506"
+           y="167.15794">Ctrl</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -648,16 +653,17 @@
          id="rect99" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="597.4729"
-         y="136.54851"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="583.39276"
+         y="134.03035"
          id="text171-1-94"
          inkscape:label=", &lt;"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-78"
-           x="597.4729"
-           y="136.54851">, &lt;</tspan></text>
+           x="583.39276"
+           y="134.03035"
+           style="stroke-width:0.999865">, &lt;</tspan></text>
       <text
          xml:space="preserve"
          style="text-align:center;text-anchor:middle;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-opacity:1"
@@ -787,29 +793,55 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-         x="243.19141"
-         y="96.512421"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="525.74396"
+         y="142.91267"
          id="text171-1-9228"
          inkscape:label="M"
-         transform="matrix(0.99972967,0,0,1.0000005,282.29719,32.544557)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-97"
-           x="243.19141"
-           y="96.512421">M</tspan></text>
+           x="525.74396"
+           y="142.91267"
+           style="stroke-width:0.999865">M</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.999865;stroke-opacity:1"
-         x="525.82233"
-         y="139.2115"
+         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="545.2934"
+         y="156.93665"
+         id="text4-6-3-2-3"
+         inkscape:label="1 !"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-5-9-6"
+           style="fill:#0000ff;fill-opacity:1;stroke-width:0.999865"
+           x="545.2934"
+           y="156.93665">1 !</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.99892px;line-height:0.5;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:end;text-decoration-color:#000000;text-anchor:end;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="559.21918"
+         y="126.4853"
          id="text2-6"
          transform="scale(0.99986461,1.0001354)"
          inkscape:label="TAB"><tspan
            sodipodi:role="line"
-           id="tspan2-7"
-           style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.999865;stroke-opacity:1"
-           x="525.82233"
-           y="139.2115">⇥ TAB</tspan></text>
+           style="font-size:7.99892px;line-height:0.5;text-align:end;text-anchor:end;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+           x="559.21918"
+           y="126.4853"
+           id="tspan5"
+           dy="-0.14">TAB</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:13.3315px;line-height:0.5;text-align:end;text-anchor:end;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+           x="559.21918"
+           y="133.53867"
+           id="tspan6"
+           dy="-0.039999999">⇥</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:7.99892px;line-height:0.5;text-align:end;text-anchor:end;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+           x="559.21918"
+           y="137.53812"
+           id="tspan7" /></text>
     </g>
     <g
        class="  keycap"
@@ -857,16 +889,17 @@
          id="rect123" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="486.28107"
-         y="150.5201"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="472.21591"
+         y="148.00006"
          id="text171-1-02"
          inkscape:label="N"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-3"
-           x="486.28107"
-           y="150.5201">N</tspan></text>
+           x="472.21591"
+           y="148.00006"
+           style="stroke-width:0.999865">N</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -913,16 +946,17 @@
          id="rect91" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="704.49207"
-         y="101.74283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="689.14764"
+         y="100.72917"
          id="text171-1-7"
          inkscape:label="; :"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-9"
-           x="704.49207"
-           y="101.74283">; :</tspan></text>
+           x="689.14764"
+           y="100.72917"
+           style="stroke-width:0.999865">; :</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -970,16 +1004,30 @@
          id="rect75" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="243.19141"
-         y="96.512421"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="633.06836"
+         y="86.80014"
          id="text171-1-93"
-         transform="matrix(0.99972967,0,0,1.0000005,389.85695,-21.450581)"
+         transform="scale(0.99986458,1.0001354)"
          inkscape:label="L"><tspan
            sodipodi:role="line"
            id="tspan171-8-60"
-           x="243.19141"
-           y="96.512421">L</tspan></text>
+           x="633.06836"
+           y="86.80014"
+           style="stroke-width:0.999865">L</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="658.38275"
+         y="74.635071"
+         id="text4-6-8-0-7"
+         inkscape:label="Arrow right"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-79-2-5"
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
+           x="658.38275"
+           y="74.635071">⭢</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1027,22 +1075,37 @@
          id="rect59" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="297.52505"
-         y="88.15937"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="578.50629"
+         y="83.026474"
          id="text171-1-91"
          inkscape:label="K"
-         transform="matrix(0.99972967,0,0,1.0000005,281.86696,-20.324497)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-2"
-           x="297.52505"
-           y="88.15937">K</tspan></text>
+           x="578.50629"
+           y="83.026474"
+           style="stroke-width:0.999865">K</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="603.30511"
+         y="68.138763"
+         id="text4-6-8"
+         inkscape:label="Arrow down"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-79"
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
+           x="603.30511"
+           y="68.138763">⭣</tspan></text>
     </g>
     <g
        class="  keycap"
        id="g71"
        transform="matrix(1.0002704,0,0,0.99999952,15.00142,15.000066)"
-       inkscape:label="J">
+       inkscape:label="J"
+       style="display:inline">
       <!-- Outer Border -->
       <rect
          x="514"
@@ -1083,16 +1146,30 @@
          id="rect71" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="539.98285"
-         y="89.438293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="524.91058"
+         y="86.977638"
          id="text171-1-5"
          inkscape:label="J"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-6"
-           x="539.98285"
-           y="89.438293">J</tspan></text>
+           x="524.91058"
+           y="86.977638"
+           style="stroke-width:0.999865">J</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="548.79083"
+         y="74.612755"
+         id="text4-6-8-0"
+         inkscape:label="Arrow left"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-79-2"
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
+           x="548.79083"
+           y="74.612755">⭠</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1139,16 +1216,17 @@
          id="rect83" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="486.18372"
-         y="96.314079"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="470.86874"
+         y="95.301155"
          id="text171-1-6"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"
+         transform="scale(0.99986458,1.0001354)"
          inkscape:label="H"><tspan
            sodipodi:role="line"
            id="tspan171-8-75"
-           x="486.18372"
-           y="96.314079">H</tspan></text>
+           x="470.86874"
+           y="95.301155"
+           style="stroke-width:0.999865">H</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1186,8 +1264,8 @@
          id="rect50" />
       <!-- Inner Fill -->
       <rect
-         x="682"
-         y="24.25"
+         x="679.74481"
+         y="24.511543"
          width="40"
          height="40"
          rx="5"
@@ -1195,41 +1273,54 @@
          id="rect51" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="702.47809"
-         y="49.415596"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="684.38428"
+         y="49.158894"
          id="text171-1-0"
          inkscape:label="P"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.9998646,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-59"
-           x="702.47809"
-           y="49.415596">P</tspan></text>
+           x="684.38428"
+           y="49.158894"
+           style="stroke-width:0.999865">P</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:23.9968px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.99973;stroke-opacity:1"
-         x="706.2594"
-         y="47.274174"
+         style="font-size:23.9968px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:none;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.99973;stroke-opacity:1"
+         x="695.62683"
+         y="49.400688"
          id="text3"
          transform="scale(0.99986461,1.0001354)"
-         inkscape:label="Backspace"><tspan
+         inkscape:label="Backspace text"><tspan
            sodipodi:role="line"
            id="tspan3"
            style="stroke:none;stroke-width:1.99973"
-           x="706.2594"
-           y="47.274174">⌫</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:12px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
-         x="684.92407"
-         y="57.997883"
-         id="text3-3"
-         inkscape:label="Backspace"><tspan
-           sodipodi:role="line"
-           id="tspan3-5"
-           style="stroke:none;stroke-width:1"
-           x="684.92407"
-           y="57.997883">⌫</tspan></text>
+           x="695.62683"
+           y="49.400688">⌫</tspan></text>
+      <g
+         id="g2"
+         inkscape:label="Backspace vector"
+         transform="translate(10.540043)">
+        <path
+           id="text5-2"
+           style="font-size:23.9968px;-inkscape-font-specification:sans-serif;display:inline;fill:#a500ff;fill-opacity:1;stroke-width:2"
+           inkscape:label="Backspace (purple)"
+           transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"
+           d="m 715.92971,56.726603 3.33594,3.361328 -3.35938,3.359375 1.39269,-4e-6 2.66406,-2.664062 2.6875,2.664062 1.39253,10e-5 -3.38476,-3.359375 3.35937,-3.361328 -1.4159,-7.8e-5 -2.63868,2.664063 -2.64062,-2.664063 z"
+           sodipodi:nodetypes="ccccccccccccccc" />
+        <path
+           id="text5-2-5"
+           style="font-size:23.9968px;-inkscape-font-specification:sans-serif;display:inline;fill:#0000fa;fill-opacity:1;stroke-width:1.99973"
+           inkscape:label="Backspace (blue)"
+           d="m 704.07385,45.087888 -3.35848,3.359377 1.39232,-4e-6 2.66334,-2.664064 0.69508,-0.695213 3.35846,-3.36133 -1.41552,-7.8e-5 -2.63796,2.664065 z"
+           sodipodi:nodetypes="ccccccccc" />
+        <path
+           id="text5-6"
+           style="font-size:23.9968px;-inkscape-font-specification:sans-serif;display:inline;fill:#ff0000;stroke-width:1.99973"
+           inkscape:label="Backspace (out)"
+           d="m 699.87574,40.767532 -4.34258,4.320314 4.34258,4.320315 h 10.05392 v -8.640629 z m 0.55063,0.958985 h 0.31242 l 1.3922,3e-5 h 5.27787 l 1.41566,2.7e-5 h 0.14449 v 6.720706 h -0.1191 l -1.39217,3.8e-5 h -5.35011 l -1.3922,3e-6 h -0.28899 l -3.33503,-3.359377 z"
+           sodipodi:nodetypes="cccccccccccccccccccc" />
+      </g>
     </g>
     <g
        class="  keycap"
@@ -1276,16 +1367,56 @@
          id="rect35" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="644.31744"
-         y="35.969486"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="628.87762"
+         y="33.692795"
          id="text171-1-92"
          inkscape:label="O"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-5"
-           x="644.31744"
-           y="35.969486">O</tspan></text>
+           x="628.87762"
+           y="33.692795"
+           style="stroke-width:0.999865">O</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.99892px;text-align:center;text-anchor:middle;display:inline;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-width:0.999865;stroke-opacity:1"
+         x="647.08722"
+         y="57.454185"
+         id="text166-2-6-6"
+         inkscape:label="]"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan166-9-7-7"
+           x="647.08722"
+           y="57.454185"
+           style="font-size:7.99892px;stroke-width:0.999865">]</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.99892px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="652.64154"
+         y="18.223471"
+         id="text4-6-6"
+         inkscape:label="End"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-7"
+           style="font-size:7.99892px;fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
+           x="652.64154"
+           y="18.223471">End</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="652.099"
+         y="48.288406"
+         id="text4-6-3-3"
+         inkscape:label="9 ("
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-5-5"
+           style="fill:#0000ff;fill-opacity:1;stroke-width:0.999865"
+           x="652.099"
+           y="48.288406">9 (</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1332,16 +1463,56 @@
          id="rect19" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="593.16522"
-         y="28.700289"
+         style="font-size:7.99892px;text-align:center;text-anchor:middle;display:inline;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-width:0.999865;stroke-opacity:1"
+         x="592.56885"
+         y="50.889305"
+         id="text166-2-6"
+         inkscape:label="["
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan166-9-7"
+           x="592.56885"
+           y="50.889305"
+           style="font-size:7.99892px;stroke-width:0.999865">[</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="578.43927"
+         y="28.722364"
          id="text169-48-6"
          inkscape:label="I"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.9998646,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-8-4"
-           x="593.16522"
-           y="28.700289">I</tspan></text>
+           x="578.43927"
+           y="28.722364"
+           style="stroke-width:0.999865">I</tspan></text>
+      <text
+         xml:space="preserve"
+         style="display:inline;font-size:12px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-opacity:1"
+         x="612.18518"
+         y="57.511971"
+         id="text4-6-3"
+         inkscape:label="8 *"
+         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-5"
+           style="fill:#0000ff;fill-opacity:1;stroke-width:1"
+           x="612.18518"
+           y="57.511971">8 *</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="603.8302"
+         y="14.435523"
+         id="text4-6"
+         inkscape:label="Arrow up"
+         transform="scale(0.9998646,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75"
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
+           x="603.8302"
+           y="14.435523">⭡</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1388,16 +1559,56 @@
          id="rect31" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="539.896"
-         y="35.547516"
+         style="font-size:7.99892px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="536.67383"
+         y="17.785439"
+         id="text4-6-6-3"
+         inkscape:label="Home"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-7-5"
+           style="font-size:7.99892px;fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
+           x="536.67383"
+           y="17.785439">Home</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.99892px;text-align:center;text-anchor:middle;display:inline;fill:#a500ff;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="540.47662"
+         y="57.579163"
+         id="text166-2-6-2"
+         inkscape:label="Caps Lock"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan166-9-7-70"
+           x="540.47662"
+           y="57.579163"
+           style="font-size:7.99892px;stroke-width:0.999865;fill:#a500ff;stroke:none;fill-opacity:1">Caps Lock</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="525.07373"
+         y="35.542652"
          id="text169-48-9"
          inkscape:label="U"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-8-7"
-           x="539.896"
-           y="35.547516">U</tspan></text>
+           x="525.07373"
+           y="35.542652"
+           style="stroke-width:0.999865">U</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
+         x="539.37225"
+         y="48.319782"
+         id="text4-6-3-2"
+         inkscape:label="7 &amp;"
+         transform="scale(0.99986461,1.0001354)"><tspan
+           sodipodi:role="line"
+           id="tspan4-75-5-9"
+           style="fill:#0000ff;fill-opacity:1;stroke-width:0.999865"
+           x="539.37225"
+           y="48.319782">7 &amp;</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1444,16 +1655,17 @@
          id="rect43" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="486.27133"
-         y="43.212662"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="471.4563"
+         y="41.956932"
          id="text169-48"
          inkscape:label="Y"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-8"
-           x="486.27133"
-           y="43.212662">Y</tspan></text>
+           x="471.4563"
+           y="41.956932"
+           style="stroke-width:0.999865">Y</tspan></text>
     </g>
   </g>
   <g
@@ -1581,6 +1793,19 @@
          rx="5"
          fill="#fcfcfc"
          id="rect143" />
+      <text
+         xml:space="preserve"
+         style="font-size:34.725px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.89375;stroke-opacity:0.086552"
+         x="80.20504"
+         y="260.14502"
+         id="text1-6"
+         inkscape:label="↵"
+         transform="matrix(0.96579503,-0.258784,0.2588541,0.96605664,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan1-7"
+           x="80.20504"
+           y="260.14502"
+           style="stroke-width:2.89375">⎵</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1627,16 +1852,17 @@
          id="rect135" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="158.12254"
-         y="205.13541"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="154.06049"
+         y="203.54291"
          id="text171-1-9-3-3-9-3-8"
          inkscape:label="Alt (left thumb)"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-7-8-1-6-3-6"
-           x="158.12254"
-           y="205.13541">Alt</tspan></text>
+           x="154.06049"
+           y="203.54291"
+           style="stroke-width:0.999865">Alt</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1683,16 +1909,17 @@
          id="rect119" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="242.60027"
-         y="150.89317"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="227.56813"
+         y="149.37296"
          id="text171-1-9-3-3-9-3"
          inkscape:label="B"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-7-8-1-6-3"
-           x="242.60027"
-           y="150.89317">B</tspan></text>
+           x="227.56813"
+           y="149.37296"
+           style="stroke-width:0.999865">B</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1810,16 +2037,17 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="189.28421"
-         y="143.89272"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="174.25928"
+         y="142.37344"
          id="text171-1-9-3-3-9"
          inkscape:label="V"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-7-8-1-6"
-           x="189.28421"
-           y="143.89272">V</tspan></text>
+           x="174.25928"
+           y="142.37344"
+           style="stroke-width:0.999865">V</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1878,16 +2106,17 @@
            y="175.55544">Alt</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="134.66837"
-         y="137.06024"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="119.6508"
+         y="135.54189"
          id="text171-1-9-3-3"
          inkscape:label="C"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-7-8-1"
-           x="134.66837"
-           y="137.06024">C</tspan></text>
+           x="119.6508"
+           y="135.54189"
+           style="stroke-width:0.999865">C</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -1946,16 +2175,17 @@
            y="182.18312">Ctrl</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="80.711891"
-         y="143.73769"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="65.701607"
+         y="142.21843"
          id="text171-1-9-3"
          inkscape:label="X"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-7-8"
-           x="80.711891"
-           y="143.73769">X</tspan></text>
+           x="65.701607"
+           y="142.21843"
+           style="stroke-width:0.999865">X</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2015,16 +2245,17 @@
            y="195.88197">Shift</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="27.329262"
-         y="157.49948"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="12.326179"
+         y="155.97836"
          id="text171-1-9"
          inkscape:label="Z"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8-7"
-           x="27.329262"
-           y="157.49948">Z</tspan></text>
+           x="12.326179"
+           y="155.97836"
+           style="stroke-width:0.999865">Z</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2071,16 +2302,17 @@
          id="rect79" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="243.19141"
-         y="96.512421"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="228.15919"
+         y="94.999535"
          id="text171-1"
          inkscape:label="G"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171-8"
-           x="243.19141"
-           y="96.512421">G</tspan></text>
+           x="228.15919"
+           y="94.999535"
+           style="stroke-width:0.999865">G</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2127,29 +2359,30 @@
          id="rect67" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="188.35442"
-         y="89.815765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="173.32961"
+         y="88.30378"
          id="text171"
          inkscape:label="F"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan171"
-           x="188.35442"
-           y="89.815765">F</tspan></text>
+           x="173.32961"
+           y="88.30378"
+           style="stroke-width:0.999865">F</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
-         x="185.11981"
-         y="86.762505"
+         x="191.79001"
+         y="75.113472"
          id="text4-0"
          transform="scale(0.99986461,1.0001354)"
          inkscape:label="Mouse"><tspan
            sodipodi:role="line"
            id="tspan4-6"
            style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
-           x="185.11981"
-           y="86.762505">🖱</tspan></text>
+           x="191.79001"
+           y="75.113472">🖱⭢</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2196,29 +2429,30 @@
          id="rect63" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="81.22657"
-         y="90.429977"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="66.216217"
+         y="88.917915"
          id="text169-9-1"
          inkscape:label="S"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-6-7"
-           x="81.22657"
-           y="90.429977">S</tspan></text>
+           x="66.216217"
+           y="88.917915"
+           style="stroke-width:0.999865">S</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
-         x="76.091827"
-         y="85.239845"
+         x="83.131851"
+         y="76.179611"
          id="text4-2"
          transform="scale(0.99986461,1.0001354)"
          inkscape:label="Mouse"><tspan
            sodipodi:role="line"
            id="tspan4-7"
            style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
-           x="76.091827"
-           y="85.239845">🖱</tspan></text>
+           x="83.131851"
+           y="76.179611">⭠🖱</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2265,29 +2499,30 @@
          id="rect55" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="134.98338"
-         y="83.465294"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="119.96577"
+         y="81.95417"
          id="text169-9-1-5"
          inkscape:label="D"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-6-7-7"
-           x="134.98338"
-           y="83.465294">D</tspan></text>
+           x="119.96577"
+           y="81.95417"
+           style="stroke-width:0.999865">D</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
-         x="130.82938"
-         y="81.786423"
+         x="139.56796"
+         y="69.767563"
          id="text4-9"
          transform="scale(0.99986461,1.0001354)"
          inkscape:label="Mouse"><tspan
            sodipodi:role="line"
            id="tspan4-3"
            style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
-           x="130.82938"
-           y="81.786423">🖱</tspan></text>
+           x="139.56796"
+           y="69.767563">🖱⭣</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2334,16 +2569,17 @@
          id="rect87" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="27.467213"
-         y="103.08861"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="12.46411"
+         y="101.57484"
          id="text169-9"
          inkscape:label="A"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-6"
-           x="27.467213"
-           y="103.08861">A</tspan></text>
+           x="12.46411"
+           y="101.57484"
+           style="stroke-width:0.999865">A</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-width:0.999865;stroke-opacity:1"
@@ -2404,16 +2640,17 @@
          id="rect39" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="242.64558"
-         y="42.168076"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="227.61345"
+         y="40.662521"
          id="text169-4-7-1"
          inkscape:label="T"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-4-6-7"
-           x="242.64558"
-           y="42.168076">T</tspan></text>
+           x="227.61345"
+           y="40.662521"
+           style="stroke-width:0.999865">T</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2460,16 +2697,17 @@
          id="rect27" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="187.936"
-         y="34.068001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="172.91125"
+         y="32.563541"
          id="text169-4-7"
          inkscape:label="R"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-4-6"
-           x="187.936"
-           y="34.068001">R</tspan></text>
+           x="172.91125"
+           y="32.563541"
+           style="stroke-width:0.999865">R</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2517,29 +2755,30 @@
          id="rect15" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="134.07388"
-         y="28.824472"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="119.0564"
+         y="27.320719"
          id="text170"
          inkscape:label="E"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan170"
-           x="134.07388"
-           y="28.824472">E</tspan></text>
+           x="119.0564"
+           y="27.320719"
+           style="stroke-width:0.999865">E</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:11.9984px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration-color:#000000;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.999865;stroke-opacity:1"
-         x="131.45139"
-         y="27.902102"
+         x="139.56796"
+         y="14.773753"
          id="text4"
-         transform="scale(0.9998646,1.0001354)"
+         transform="scale(0.99986461,1.0001354)"
          inkscape:label="Mouse"><tspan
            sodipodi:role="line"
            id="tspan4"
            style="fill:#ff0000;fill-opacity:1;stroke-width:0.999865"
-           x="131.45139"
-           y="27.902102">🖱</tspan></text>
+           x="139.56796"
+           y="14.773753">🖱⭡</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2586,16 +2825,17 @@
          id="rect23" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="82.410782"
-         y="35.773148"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="67.400269"
+         y="34.268456"
          id="text169-4"
          inkscape:label="W"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169-4"
-           x="82.410782"
-           y="35.773148">W</tspan></text>
+           x="67.400269"
+           y="34.268456"
+           style="stroke-width:0.999865">W</tspan></text>
     </g>
     <g
        class="  keycap"
@@ -2642,16 +2882,61 @@
          id="rect47" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         x="27.779831"
-         y="49.792412"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.999865;stroke-opacity:1"
+         x="12.776687"
+         y="48.285831"
          id="text169"
          inkscape:label="Q"
-         transform="matrix(0.99972967,0,0,1.0000005,-14.997365,-15.000073)"><tspan
+         transform="scale(0.99986458,1.0001354)"><tspan
            sodipodi:role="line"
            id="tspan169"
-           x="27.779831"
-           y="49.792412">Q</tspan></text>
+           x="12.776687"
+           y="48.285831"
+           style="stroke-width:0.999865">Q</tspan></text>
+      <g
+         id="g1-0"
+         inkscape:label="Esc"
+         transform="translate(7.4979724,-3.0000014)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:FreeMono;-inkscape-font-specification:FreeMono;text-align:center;text-anchor:middle;display:inline;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-width:0.999865;stroke-opacity:1"
+           x="27.617926"
+           y="51.025581"
+           id="text169-2-5"
+           inkscape:label="c"
+           transform="scale(0.99986464,1.0001354)"><tspan
+             sodipodi:role="line"
+             id="tspan169-7-0"
+             x="27.617926"
+             y="51.025581"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#a500ff;fill-opacity:1;stroke:#a500ff;stroke-width:0.999865;stroke-opacity:1">  c</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:FreeMono;-inkscape-font-specification:FreeMono;text-align:center;text-anchor:middle;display:inline;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.999865;stroke-opacity:1"
+           x="27.617926"
+           y="51.025581"
+           id="text169-2-5-7"
+           inkscape:label="s"
+           transform="scale(0.99986461,1.0001354)"><tspan
+             sodipodi:role="line"
+             id="tspan169-7-0-8"
+             x="31.217447"
+             y="51.025581"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.999865;stroke-opacity:1"> s  </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9984px;font-family:FreeMono;-inkscape-font-specification:FreeMono;text-align:center;text-anchor:middle;display:inline;fill:#0000fa;fill-opacity:1;stroke:#0000fa;stroke-width:0.999865;stroke-opacity:1"
+           x="27.617926"
+           y="51.025581"
+           id="text169-2-5-5"
+           inkscape:label="E"
+           transform="scale(0.99986464,1.0001354)"><tspan
+             sodipodi:role="line"
+             id="tspan169-7-0-4"
+             x="31.217447"
+             y="51.025581"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#0000fa;fill-opacity:1;stroke:#0000fa;stroke-width:0.999865;stroke-opacity:1">E   </tspan></text>
+      </g>
     </g>
   </g>
 </svg>
