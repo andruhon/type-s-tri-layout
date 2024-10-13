@@ -1,6 +1,6 @@
 I realised that I actually don't quite use VIAL, so I decided
 to de-clutter my layout to be QMK only.
-The old VIAL stuff can be found in vial. Branch.
+The old VIAL stuff can be found in [VIAL](https://github.com/andruhon/corne3x5/tree/vial) branch.
 
 ## Setting up
 Install QMK following https://docs.qmk.fm/newbs_getting_started
