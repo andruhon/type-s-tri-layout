@@ -1,18 +1,4 @@
-# I ended up never using the vial app actually
-# TODO convert it to plain QMK build
-VIA_ENABLE          = yes
-VIAL_ENABLE         = yes
-LTO_ENABLE          = yes
+VIA_ENABLE = no
 
-
-# Enabling QMK settings takes control over things like AUTO_SHIFT_ENABLE
-# I didn't yet figured out how to provide defaults for these QMK settings
-QMK_SETTINGS        = no
+TRI_LAYER_ENABLE = yes
 AUTO_SHIFT_ENABLE 	= yes
-
-RGBLIGHT_ENABLE     = no
-RGB_MATRIX_ENABLE   = no # Can't have RGBLIGHT and RGB_MATRIX at the same time.
-MOUSEKEY_ENABLE     = yes
-OLED_ENABLE         = yes
-EXTRAKEY_ENABLE     = yes
-COMBO_ENABLE        = no
