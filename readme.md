@@ -1,5 +1,7 @@
 # Corne 3x5 VIAL layout
 
+A newer improved, QMK only, version of this layout can be found in [master](https://github.com/andruhon/corne3x5/tree/master).
+
 Building a 3x5 layout for my https://github.com/klouderone/cornev4promicroedition
 
 Use on your risk.
