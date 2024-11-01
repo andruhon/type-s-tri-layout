@@ -42,8 +42,8 @@ WIP, check [keymap.c](keymap.c) for full layout for now.
 ### Keycaps for 3D printing
 This is currently work in progress.
 
-See [keycap-edit-gui.stl](/workspaces/corne3x5/keycaps/keycap-edit-gui.stl) for ready to print keycaps.
-See [keycap-edit-gui.scad](/workspaces/corne3x5/keycaps/keycap-edit-gui.scad) for Open SCAD script generating keycaps.
+See [keycap-edit-gui.stl](keycaps/keycap-edit-gui.stl) for ready to print keycaps.
+See [keycap-edit-gui.scad](keycaps/keycap-edit-gui.scad) for Open SCAD script generating keycaps.
 
 ### Matrix
 Generated with http://www.keyboard-layout-editor.com/.
