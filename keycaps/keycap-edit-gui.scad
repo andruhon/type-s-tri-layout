@@ -3,7 +3,7 @@
 
 font = "Liberation Mono:style=Bold"; //["Liberation Sans", "Liberation Sans:style=Bold", "Liberation Sans:style=Italic", "Liberation Mono", "Liberation Serif"]
 
-// Download https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf fro
+// Download from https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf
 font_symbolic = "Material Icons:style=Regular";
 // Values to be rendered with symbolic font
 symbolic_values = [["\ue323",1], ["\ue0e6",1]];
@@ -34,23 +34,55 @@ stem_thick = 5;
 // Labels. Each element is an array of 5 strings corresponding to:
 // top left, top right, bottom left, bottom right, center, side top
 labels = [
-    ["", "", "", "", "Z", "Shift"],
-    ["F1", "\\", "", "|", "X", "Ctrl"],
-    ["F2", ",", "", "<", "C", "Alt"],
-    ["F3", ".", "", ">", "V", "gui"],
+    ["",    "", "", "", "Q", "Esc"],
+    ["F7",  "", "", "", "W", "Vol -"],
+    ["F8",  "", "", "", "E", "Mute"],
+    ["F9",  "", "", "", "R", "Vol +"],
+    ["F12",    "", "", "", "T", ""],
+    
+    ["PgUp","", "", "", "Y", "PtScr"],
+    ["Home","7", "", "", "U", ""],
+    ["",    "8", "", "", "I", ""],
+    ["End", "9", "", "", "O", ""],
+    ["",    "", "", "", "P", ""],
+
+    ["",    "", "", "", "A", ""],
+    ["F4",    "", "", "", "S", ""],
+    ["F5",    "", "", "", "D", ""],
+    ["F6",    "", "", "", "F", ""],
+    ["F10",    "", "", "", "G", ""],
+    
+    ["PgDn","", "", "", "H", ""],
+    ["",    "4", "", "", "J", ""],
+    ["",    "5", "", "", "K", ""],
+    ["",    "6", "", "", "L", ""],
+    ["",    "0", "", "", ";:", ""],    
+    
+    ["",    "", "", "", "Z", "Shift"],
+    ["F1",  "\\", "", "|", "X", "Ctrl"],
+    ["F2",  ",", "", "<", "C", "Alt"],
+    ["F3",  ".", "", ">", "V", "gui"],
     ["F11", "", "", "\ue3fb\ue323", "B", "Del"],
+    
     ["Del", "", "", "\ue400\ue323", "N", "Enter"],
     ["Tab", "1", "", "!", "M", "gui"],
     ["Ins", "2", "", "\ue0e6", ",<", "Alt"],
     ["App", "3", "", "#", ".>", "Ctrl"],
-    ["", "", "", "\ue068\ue323", "/?", "Shift"],
+    ["",    "", "", "\ue068\ue323", "/?", "Shift"],
+    
+    ["", "", "", "", "", ""], // Spare blank key
+    ["", "", "", "", "", ""], // Spare blank key
+    ["", "", "", "", "Alt", ""],
+    ["", "", "", "", "Space", ""],
     ["", "", "", "", "", "Lower"],
+    
     ["", "", "", "", "", "Raise"],
-    ["", "", "", "", "", ""],
-    ["", "", "", "", "", ""],
-    ["", "", "", "", "", ""],
+    ["", "", "", "", "Enter", ""],
+    ["", "", "", "", "Ctrl", ""],
+    ["", "", "", "", "", ""], // Spare blank key
+    ["", "", "", "", "", ""] // Spare blank key
 ];
-keys_per_row = 5;
+keys_per_row = 10;
 function offset_by_idx(i) = [20*(i%keys_per_row), 20*floor(i/keys_per_row), 0];
 
 module make_single_label(labels_one_key, select_color="") {
