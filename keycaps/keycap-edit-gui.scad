@@ -1,20 +1,17 @@
 // Original script produced by karlh5926@gmail.com (aileron.me)
 // Modified by https://github.com/andruhon
 
-font = "Liberation Mono:style=Bold"; //["Liberation Sans", "Liberation Sans:style=Bold", "Liberation Sans:style=Italic", "Liberation Mono", "Liberation Serif"]
+font = "Liberation Sans:style=Bold"; //["Liberation Sans", "Liberation Sans:style=Bold", "Liberation Sans:style=Italic", "Liberation Mono", "Liberation Serif"]
 
-// Download from https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf
-font_symbolic = "Material Icons:style=Regular";
-// Values to be rendered with symbolic font
-symbolic_values = [["\ue323",1], ["\ue0e6",1]];
-symbolic_font_size = 2.5;
+// Font exceptions (Does not affect side text)
+special_font_size = [["Home", 2], ["PgUp",2.5], ["PgDn",2.5], ["Space", 3.3], ["Enter", 3.3], ["Alt", 3.3], ["Ctrl", 3.3], [".", 5], [",", 5]];
 
 // Generate labels of the corresponding color.
 // Generate cap body if "".
 gen_label_model = "";
 
-label_text_size = [2.5, 2.8, 3, 3, 4, 3, 3];
-label_color = ["blue", "orange","purple","pink", "red", "green", "green"];
+label_text_size = [3, 4, 3, 4, 4, 3, 3];
+label_color = ["blue", "orange","RoyalBlue","RoyalBlue", "red", "DarkViolet", "DarkViolet"];
 label_height = .3;
 label_bound_box = 5;
 label_text_finess = 10;
@@ -38,7 +35,7 @@ labels = [
     ["F7",  "", "", "", "W", "Vol -"],
     ["F8",  "", "", "", "E", "Mute"],
     ["F9",  "", "", "", "R", "Vol +"],
-    ["F12",    "", "", "", "T", ""],
+    ["F12", "", "", "", "T", ""],
     
     ["PgUp","", "", "", "Y", "PtScr"],
     ["Home","7", "", "", "U", ""],
@@ -47,10 +44,10 @@ labels = [
     ["",    "", "", "", "P", ""],
 
     ["",    "", "", "", "A", ""],
-    ["F4",    "", "", "", "S", ""],
-    ["F5",    "", "", "", "D", ""],
-    ["F6",    "", "", "", "F", ""],
-    ["F10",    "", "", "", "G", ""],
+    ["F4",  "", "", "", "S", ""],
+    ["F5",  "", "", "", "D", ""],
+    ["F6",  "", "", "", "F", ""],
+    ["F10", "", "", "", "G", ""],
     
     ["PgDn","", "", "", "H", ""],
     ["",    "4", "", "", "J", ""],
@@ -62,13 +59,13 @@ labels = [
     ["F1",  "\\", "", "|", "X", "Ctrl"],
     ["F2",  ",", "", "<", "C", "Alt"],
     ["F3",  ".", "", ">", "V", "gui"],
-    ["F11", "", "", "\ue3fb\ue323", "B", "Del"],
+    ["F11", "", "", "ms3", "B", "Del"],
     
-    ["Del", "", "", "\ue400\ue323", "N", "Enter"],
+    ["Del", "", "", "ms1", "N", "Enter"],
     ["Tab", "1", "", "!", "M", "gui"],
-    ["Ins", "2", "", "\ue0e6", ",<", "Alt"],
+    ["Ins", "2", "", "@", ",<", "Alt"],
     ["App", "3", "", "#", ".>", "Ctrl"],
-    ["",    "", "", "\ue068\ue323", "/?", "Shift"],
+    ["",    "", "", "mss", "/?", "Shift"],
     
     ["", "", "", "", "", ""], // Spare blank key
     ["", "", "", "", "", ""], // Spare blank key
@@ -97,17 +94,18 @@ module make_single_label(labels_one_key, select_color="") {
 }
 
 module make_single_label_inner(pos, labels_one_key, select_color="") {
-    sym = is_symbolic(labels_one_key[pos]);
     if (labels_one_key[pos] != "") {
         if (select_color=="" || select_color==label_color[pos]) {
+            echo(labels_one_key[pos]);
+            echo(get_font_size(labels_one_key[pos], pos));
             color(label_color[pos])
             translate([0, 0, -.01])
             translate(positions[pos]*label_bound_box)
             linear_extrude(height = label_height)
             rotate(a=180, v=[1, 0, 0])
             text(labels_one_key[pos], 
-                size = sym?symbolic_font_size:label_text_size[pos],
-                font = sym?font_symbolic:font,
+                size = get_font_size(labels_one_key[pos], pos),
+                font = font,
                 halign = haligns[pos],
                 valign = valigns[pos],
                 $fn = label_text_finess);
@@ -115,7 +113,7 @@ module make_single_label_inner(pos, labels_one_key, select_color="") {
     }
 }
 
-function is_symbolic(s) = len(search(s, symbolic_values)) > 0;
+function get_font_size(s, pos) = is_num(search([s], special_font_size, num_returns_per_match=1)[0])? special_font_size[search([s], special_font_size, num_returns_per_match=1)[0]][1] : label_text_size[pos];
 
 module make_gui_icon_on_side(select_color="") {
         if (select_color=="" || select_color==label_color[6]) {
