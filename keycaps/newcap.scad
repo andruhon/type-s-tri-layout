@@ -12,7 +12,7 @@ slot_length = 4.1;
 slot_width = 1.4;
 slots = [[slot_length,slot_width, inner_hollow_scale*height], [slot_width,slot_length, inner_hollow_scale*height]];
 
-check_cubes(all=false, top=false, bottom=false, wall=false);
+check_cubes(all=false, top=true, bottom=false, wall=false);
 
 // sharp, postsoft, presoft
 style = "presoft";
@@ -89,7 +89,7 @@ module check_cubes(all=false, bottom=false, top=false, wall=false) {
         color("Red") { translate([-bottom_side/2, 0, 0]) cube([bottom_side, bottom_side, height]); }
     }
     if (all || top) {
-        color("Green") { translate([-top_side/2, -top_side, 0]) cube([top_side, top_side, height]); }
+        color("Green") { translate([-top_side/2, -top_side/2, 0]) cube([top_side, top_side, height]); }
     }
     if (all || wall) {
         color("Orange") { translate([bottom_side/2, -bottom_side/2, 0]) cube([1.7, 1.7, 1.7]); }
