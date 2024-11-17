@@ -32,7 +32,7 @@ add_button(2, 0, "postsoft", svg_top="svg/p.svg", svg_side="svg/p-side.svg");
 // add_button(0, 1, "postsoft", middle="Q", side="Esc");
 add_button(0, 1, "postsoft", svg_top="svg/q.svg", svg_side="svg/q-side.svg");
 add_button(1, 1, "sharp", svg_top="svg/t.svg", svg_side="svg/t-side.svg");
-add_button(2, 1, "presoft", svg_top="svg/f.svg", svg_side="svg/f-side.svg");
+add_button(2, 1, "presoft", svg_top="svg/r.svg", svg_side="svg/r-side.svg");
 /*add_button(1, 0, "postsoft", "===");
 add_button(2, 0, "presoft", "B");
 add_button(0, 1, "sharp", "A");
@@ -50,12 +50,23 @@ module add_button(
     // Svg covers entire side and overrides side text
     svg_side=""
 ) {
-    translate([row * offset_step, -line * offset_step, 0]) {
-        difference() {
-            import(str("button-", type, ".stl"));
-            
-            if (!preview_buttons) {
-                faces(
+    if (only == [-1, -1] || only == [row, line]) {
+        translate([row * offset_step, -line * offset_step, 0]) {        
+            difference() {
+                import(str("button-", type, ".stl"));
+                
+                if (!preview_buttons) {
+                    faces(
+                        type=type,
+                        middle=middle, middle_size=middle_size,
+                        side=side, side_size=side_size,
+                        svg_top=svg_top,
+                        svg_side=svg_side
+                    );
+                }
+            }
+            if (preview_buttons) {
+                color("Red") faces(
                     type=type,
                     middle=middle, middle_size=middle_size,
                     side=side, side_size=side_size,
@@ -63,20 +74,11 @@ module add_button(
                     svg_side=svg_side
                 );
             }
-        }
-        if (preview_buttons) {
-            color("Red") faces(
-                type=type,
-                middle=middle, middle_size=middle_size,
-                side=side, side_size=side_size,
-                svg_top=svg_top,
-                svg_side=svg_side
-            );
-        }
-        if (home_row) {
-            hull() {           
-                translate([-0.75,-5,button_height_offset]) sphere(0.9, $fn=50);
-                translate([+0.75,-5,button_height_offset]) sphere(0.9, $fn=50);
+            if (home_row) {
+                hull() {           
+                    translate([-0.75,-5,button_height_offset]) sphere(0.9, $fn=50);
+                    translate([+0.75,-5,button_height_offset]) sphere(0.9, $fn=50);
+                }
             }
         }
     }
