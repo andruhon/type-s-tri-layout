@@ -27,12 +27,16 @@ only = [-1, -1];
 
 // import(str("button-", "sharp", ".stl"));
 add_button(0, 0, "sharp", svg_top="svg/u.svg", svg_side="svg/u-side.svg");
-add_button(1, 0, "presoft", svg_top="svg/f.svg", svg_side="svg/f-side.svg");
-add_button(2, 0, "postsoft", svg_top="svg/p.svg", svg_side="svg/p-side.svg");
+add_button(1, 0, "presoft", svg_top="svg/o.svg", svg_side="svg/o-side.svg");
+add_button(2, 0, "sharp", svg_top="svg/e.svg", svg_side="svg/e-side.svg");
+add_button(3, 0, "presoft", svg_top="svg/a.svg", svg_side="svg/a-side.svg");
+add_button(4, 0, "presoft", svg_top="svg/f.svg", svg_side="svg/f-side.svg",home_row=true);
 // add_button(0, 1, "postsoft", middle="Q", side="Esc");
-add_button(0, 1, "postsoft", svg_top="svg/q.svg", svg_side="svg/q-side.svg");
-add_button(1, 1, "sharp", svg_top="svg/t.svg", svg_side="svg/t-side.svg");
-add_button(2, 1, "presoft", svg_top="svg/r.svg", svg_side="svg/r-side.svg");
+add_button(0, 1, "postsoft", svg_top="svg/y.svg", svg_side="svg/y-side.svg");
+add_button(1, 1, "sharp", svg_top="svg/w.svg", svg_side="svg/w-side.svg");
+add_button(2, 1, "presoft", svg_top="svg/t.svg", svg_side="svg/t-side.svg");
+add_button(3, 1, "presoft", svg_top="svg/r.svg", svg_side="svg/r-side.svg");
+add_button(4, 1, "presoft", svg_top="svg/q.svg", svg_side="svg/q-side.svg");
 /*add_button(1, 0, "postsoft", "===");
 add_button(2, 0, "presoft", "B");
 add_button(0, 1, "sharp", "A");
@@ -76,8 +80,8 @@ module add_button(
             }
             if (home_row) {
                 hull() {           
-                    translate([-0.75,-5,button_height_offset]) sphere(0.9, $fn=50);
-                    translate([+0.75,-5,button_height_offset]) sphere(0.9, $fn=50);
+                    translate([-0.75,-5,button_height_offset]) sphere(1, $fn=50);
+                    translate([+0.75,-5,button_height_offset]) sphere(1, $fn=50);
                 }
             }
         }
