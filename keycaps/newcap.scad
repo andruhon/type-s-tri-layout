@@ -12,7 +12,7 @@ slot_length = 4.1;
 slot_width = 1.4;
 slots = [[slot_length,slot_width, inner_hollow_scale*height], [slot_width,slot_length, inner_hollow_scale*height]];
 
-check_cubes(all=false, top=true, bottom=false, wall=false);
+check_cubes(all=false, top=false, bottom=false, wall=false);
 
 // sharp, postsoft, presoft
 style = "presoft";
