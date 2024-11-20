@@ -79,10 +79,11 @@ module add_button(
                 );
             }
             if (home_row) {
-                hull() {           
+                translate([-0.25,-5,button_height_offset]) sphere(1, $fn=50);
+                /*hull() {           
                     translate([-0.75,-5,button_height_offset]) sphere(1, $fn=50);
                     translate([+0.75,-5,button_height_offset]) sphere(1, $fn=50);
-                }
+                }*/
             }
         }
     }
