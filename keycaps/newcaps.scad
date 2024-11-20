@@ -126,9 +126,9 @@ module faces(
         }
     }
     if (svg_side != "") {
-        translate([0, text_depth, 0]) {
+        translate([0, text_depth+0.1, 0]) {
             difference() {       
-                rotate([73]) translate([0,4,button_height_offset]) linear_extrude(height=2) {
+                rotate([73]) translate([0,3.5,button_height_offset]) linear_extrude(height=2) {
                     scale(svg_scale) import(svg_side, center=true);
                 };
                 if (!preview_buttons) {
@@ -137,9 +137,9 @@ module faces(
             }
         }
     } else {
-        translate([0, text_depth, 0]) {
+        translate([0, text_depth+0.1, 0]) {
             difference() {       
-                rotate([73]) translate([0,4,button_height_offset]) linear_extrude(height=2) {
+                rotate([73]) translate([0,3.5,button_height_offset]) linear_extrude(height=2) {
                         text(
                                 side,
                                 size=side_size,

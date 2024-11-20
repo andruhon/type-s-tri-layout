@@ -15,7 +15,7 @@ slots = [[slot_length,slot_width, inner_hollow_scale*height], [slot_width,slot_l
 check_cubes(all=false, top=false, bottom=false, wall=false);
 
 // sharp, postsoft, presoft
-style = "sharp";
+style = "postsoft";
 
 
 corner_offset = corner_diameter * sqrt(2);
@@ -48,7 +48,7 @@ module keycap() {
     if (style=="sharp") {
         difference() {
                 rotate([0, 0, 45]) cylinder(height,d2=circumscribed_circle(top_side), d1=circumscribed_circle(bottom_side), $fn=4);
-                translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=1000, center=true);
+                translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=300, center=true);
         }
     }
 
@@ -63,7 +63,7 @@ module keycap() {
                     d1=circumscribed_circle(bottom_side) - compensation,
                     $fn=4
                 );
-                translate([0, 0, 2.805*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=1000, center=true);
+                translate([0, 0, 2.805*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=300, center=true);
             }    
             sphere(d=corner_diameter, $fn=50);
         }
@@ -76,7 +76,7 @@ module keycap() {
                 rotate([0, 0, 45]) cylinder(height,d1=cone_bottom_diameter,d2=cone_top_diameter,$fn=4);
                 cylinder(0.01,d=corner_diameter,$fn=50);                
             };
-            translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=1000, center=true);
+            translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=300, center=true);
         } 
     }
 }
