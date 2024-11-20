@@ -15,7 +15,7 @@ slots = [[slot_length,slot_width, inner_hollow_scale*height], [slot_width,slot_l
 check_cubes(all=false, top=false, bottom=false, wall=false);
 
 // sharp, postsoft, presoft
-style = "presoft";
+style = "sharp";
 
 
 corner_offset = corner_diameter * sqrt(2);
@@ -34,8 +34,6 @@ difference() {
     cylinder(inner_hollow_scale*height, d=stem_diameter, $fn=20);
     translate([0,0, inner_hollow_scale*height/2-0.1]) cube(slots[0], center=true);
     translate([0,0, inner_hollow_scale*height/2-0.1]) cube(slots[1], center=true);
-    translate([0, 0, 3.5]) cube([6.1, slot_width, 3], center=true);
-    translate([0, 0, 3.5]) cube([slot_width, 6.1, 3], center=true);
 }
 // struts
 translate([0, 4.6, 6.8]) cube([slot_width, 3.8, slot_width], center=true);
@@ -50,7 +48,7 @@ module keycap() {
     if (style=="sharp") {
         difference() {
                 rotate([0, 0, 45]) cylinder(height,d2=circumscribed_circle(top_side), d1=circumscribed_circle(bottom_side), $fn=4);
-                translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=50, center=true);
+                translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=1000, center=true);
         }
     }
 
@@ -65,7 +63,7 @@ module keycap() {
                     d1=circumscribed_circle(bottom_side) - compensation,
                     $fn=4
                 );
-                translate([0, 0, 2.805*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=50, center=true);
+                translate([0, 0, 2.805*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=1000, center=true);
             }    
             sphere(d=corner_diameter, $fn=50);
         }
@@ -78,7 +76,7 @@ module keycap() {
                 rotate([0, 0, 45]) cylinder(height,d1=cone_bottom_diameter,d2=cone_top_diameter,$fn=4);
                 cylinder(0.01,d=corner_diameter,$fn=50);                
             };
-            translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=50, center=true);
+            translate([0, 0, 2.9*height]) rotate([90, 90, 0]) cylinder(bottom_side,r=2*height, $fn=1000, center=true);
         } 
     }
 }
