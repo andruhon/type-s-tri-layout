@@ -15,7 +15,7 @@ slots = [[slot_length,slot_width, inner_hollow_scale*height], [slot_width,slot_l
 check_cubes(all=false, top=false, bottom=false, wall=false);
 
 // sharp, postsoft, presoft
-style = "postsoft";
+style = "sharp";
 
 
 corner_offset = corner_diameter * sqrt(2);
