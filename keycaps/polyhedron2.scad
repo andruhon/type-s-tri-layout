@@ -8,7 +8,18 @@ edgeLength = 10;
 bevel = 0.5;
 halfWidthLessBevel = halfWidth-bevel;
 frontHeight = 5;
+wallThickness = 2;
+pegTopThickness = 2;
 echo(halfWidth-bevel);
+
+stemDiameter=5.5;
+stemHeight = 6.5;
+slotLength = 4.1;
+slotWidth = 1.4;
+slots = [[slotLength,slotWidth, stemHeight], [slotWidth,slotLength, stemHeight]];
+
+showBoth = false;
+showStem = true;
 
 points = [
     // Concave
@@ -124,7 +135,34 @@ faces = [
     [bottomFarRightFar, bottomFarLeftFar, backFarLeftFar, backFarRightFar], // Back
 ];
 
-difference() {
-    polyhedron( points, faces);
-    // cylinder(d=5, h=5, center=true);
+if (showBoth) {
+    stem();
+    translate([0,0, stemHeight/2]) cap();
+} else if (showStem) {
+    stem();
+} else {
+    cap();
 }
+
+module stem() {
+    translate([0,0, stemHeight+(pegTopThickness/2)]) cube([fullWidth-wallThickness-0.1, fullWidth-wallThickness-0.1, pegTopThickness], center=true);
+    // stem
+    difference() {
+        cylinder(stemHeight, d=stemDiameter, $fn=20);
+        translate([0,0, stemHeight/2-0.1]) cube(slots[0], center=true);
+        translate([0,0, stemHeight/2-0.1]) cube(slots[1], center=true);
+    }
+}
+
+// translate([fullWidth/2-2, 0, frontHeight-2]) cube([2,2,2]);
+module cap() {
+    color("grey") translate([0, 0, frontHeight]) difference() {
+        polyhedron( points, faces);
+        translate([0, 0, -(frontHeight/2)])
+            cube([fullWidth-wallThickness, fullWidth-wallThickness, frontHeight], center=true);
+    }
+    translate([fullWidth/2-0.8, 0, frontHeight-pegTopThickness-0.2]) sphere(d=1);
+    translate([-fullWidth/2+0.8, 0, frontHeight-pegTopThickness-0.2]) sphere(d=1);
+}
+
+
