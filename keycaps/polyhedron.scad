@@ -33,6 +33,7 @@ nearRightEdgeLeftTop = 13;
 nearRightEdgeRightTop = 14;
 
 faces = [
+ // FIXME top and bottom are upsides down here
  [0, cfb, farRightEdgeFarBottom, rcb],
  [rcb, farRightEdgeFarBottom, farRightEdgeNearBottom, rrcb],
  [0, cfb, cfm, ccm],
