@@ -18,7 +18,7 @@ slotLength = 4.1;
 slotWidth = 1.4;
 slots = [[slotLength,slotWidth, stemHeight], [slotWidth,slotLength, stemHeight]];
 
-showBoth = false;
+showBoth = true;
 showStem = true;
 
 points = [
