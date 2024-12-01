@@ -37,7 +37,7 @@ buttons = [
     ["z", "", "", "shift"],
     ["x", "f1", "backslash", "ctrl"],
     ["c", "f2", "comma", "alt"],
-    ["v", "f3", "dot", "super"],
+    ["v", "f3", "dot", "super"]
 ];
 
 color("white") union() {
@@ -45,29 +45,29 @@ color("white") union() {
         add_button(i, 0);
     }
 }
-for ( i = [0 : len(buttons)-1] ) {
-    color("black") union() {
+color("black") union() {
+    for ( i = [0 : len(buttons)-1] ) {
         if (buttons[i][0] != "") {
             add_face_base(i, 0, str("svg/",buttons[i][0],".svg"));
         }
     }
 }
-for ( i = [0 : len(buttons)-1] ) {
-    color("blue") union() {
+color("blue") union() {
+    for ( i = [0 : len(buttons)-1] ) {
         if (buttons[i][1] != "") {
             add_face_lower(i, 0, str("svg/",buttons[i][1],".svg"));
         }
     }
 }
-for ( i = [0 : len(buttons)-1] ) {
-    color("magenta") union() {
+color("magenta") union() {
+    for ( i = [0 : len(buttons)-1] ) {
         if (buttons[i][2] != "") {
             add_face_raise(i, 0, str("svg/",buttons[i][2],".svg"));
         }
     }
 }
-for ( i = [0 : len(buttons)-1] ) {
-    color("black") union() {
+color("black") union() {
+    for ( i = [0 : len(buttons)-1] ) {
         if (buttons[i][3] != "") {
             add_face_adjust(i, 0, str("svg/",buttons[i][3],".svg"));
         }
