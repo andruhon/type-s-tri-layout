@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                 KC_LALT, KC_SPC, TL_LOWR,           TL_UPPR, KC_ENT, KC_RCTL
     ),
 
-    // LOWR
+    // LOWER
     [1] = LAYOUT_split_3x5_3(
         KC_ESC,  KC_F7,   KC_F8,   KC_F9,   KC_F12,                             KC_PGUP,  KC_HOME, KC_UP,   KC_END,   KC_BSPC,
         KC_GRAVE,KC_F4,   KC_F5,   KC_F6,   KC_F10,                             KC_PGDN,  KC_LEFT, KC_DOWN, KC_RIGHT, KC_QUOT,
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                 KC_LALT, KC_SPC, _______,           _______,  KC_ENT,  KC_RCTL
     ),
 
-    // UPPR (hold UPPR and N KC_BTN1 to drag and drop)
+    // RAISE (hold RAISE and N KC_BTN1 to drag and drop)
     [2] = LAYOUT_split_3x5_3(
         KC_ESC,  KC_BTN2, KC_MS_U, KC_BTN1, KC_WH_U,                            KC_MINUS, KC_7,    KC_8,    KC_9,     KC_BSPC,
         KC_QUOT, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,                            KC_EQUAL, KC_4,    KC_5,    KC_6,     KC_0,
@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // use ACL0 for precise mouse movements
 
 
-    // ADJUST (HOLD BOTH LOWR AND UPPR).
+    // ADJUST (HOLD BOTH LOWER AND RAISE).
     // middle row lambdas in TS and Java producing ()=>{} and ()->{} appropriately
     [3] = LAYOUT_split_3x5_3(
         KC_ESC,  KC_VOLD, KC_MUTE, KC_VOLU, KC_PAUSE,                           KC_PSCR,  KC_CAPS, KC_LBRC, KC_RBRC,  KC_BSPC,
