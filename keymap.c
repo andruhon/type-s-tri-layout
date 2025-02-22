@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // middle row lambdas in TS and Java producing ()=>{} and ()->{} appropriately
     [3] = LAYOUT_split_3x5_3(
         KC_ESC,  KC_VOLD, KC_MUTE, KC_VOLU, KC_PAUSE,                           KC_PSCR,  KC_CAPS, KC_LBRC, KC_RBRC,  KC_BSPC,
-        KC_TAB,  KC_GRAVE,KC_LPRN, KC_RPRN, KC_MINUS,                           KC_EQUAL, KC_RABK, KC_LCBR, KC_RCBR,  KC_BSLS,
+        KC_TAB,  KC_LPRN, KC_RPRN, KC_SPC,  KC_GRAVE,                           KC_MINUS, KC_RABK, KC_LCBR, KC_RCBR,  KC_EQUAL, 
         KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_DEL,                             KC_ENT,   KC_RGUI, KC_RALT, KC_RCTL,  KC_RSFT,
                                 KC_LALT, KC_SPC, _______,           _______,  KC_ENT,  KC_RCTL
     )
