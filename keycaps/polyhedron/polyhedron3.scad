@@ -15,7 +15,7 @@ echo(halfWidth-bevel);
 stemDiameter=5.5;
 stemHeight = 3.6; // Total travel distance for most MX switches is 3.4mm + 0.2 for infill residue
 slotLength = 4.1;
-slotWidth = 1.4;
+slotWidth = 1.35;
 slots = [[slotLength,slotWidth, stemHeight], [slotWidth,slotLength, stemHeight]];
 
 showBoth = true;

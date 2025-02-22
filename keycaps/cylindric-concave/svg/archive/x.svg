@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="115"
+   height="125"
+   viewBox="0 0 115 125"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="x.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="394.56558"
+     inkscape:cy="116.67262"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3">
+    <inkscape:grid
+       id="grid5"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <clipPath
+       id="clip0_19_766">
+      <rect
+         width="115"
+         height="125"
+         fill="white"
+         id="rect3" />
+    </clipPath>
+  </defs>
+  <path
+     d="m 43.875,48.679687 9.558594,13.402344 -10.042969,13.925781 h 7.316406 l 6.197266,-8.886718 6.085937,8.886718 h 7.876953 L 60.824219,61.933594 70.382812,48.679687 h -7.355468 l -5.712891,8.212891 -5.636719,-8.212891 z"
+     style="-inkscape-font-specification:'HarmonyOS Sans Heavy';fill:#000000"
+     id="path7" />
+  <path
+     d="m 31.935547,96.244141 -8.548828,4.779299 v 5.97265 l 7.09375,-3.91992 v 20.53321 h 6.458984 V 96.244141 Z M 1.1367187,96.28125 v 27.32813 H 7.5195312 V 113.34375 H 18.197266 v -5.52539 H 7.5195312 v -5.97461 H 19.429687 v -5.5625 z"
+     style="-inkscape-font-specification:'HarmonyOS Sans Heavy';fill:#000000"
+     id="path6" />
+  <path
+     d="M 106.30859,2.9140625 V 37.484375 h 5.52344 V 2.9140625 Z M 79.427734,6.0117187 89.65625,33.339844 h 5.824219 L 85.251953,6.0117187 Z"
+     style="-inkscape-font-specification:'HarmonyOS Sans Heavy';fill:#000000"
+     id="path8" />
+  <rect
+     style="fill:#000000"
+     id="rect5"
+     width="1"
+     height="1"
+     x="0"
+     y="0" />
+  <rect
+     style="fill:#000000"
+     id="rect6"
+     width="1"
+     height="1"
+     x="114"
+     y="124" />
+</svg>

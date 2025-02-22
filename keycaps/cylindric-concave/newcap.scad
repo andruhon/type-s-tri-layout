@@ -9,13 +9,13 @@ inner_hollow_scale = 0.82;
 // So I have modified slots a little bit to make them tighter.
 // Original dimensions were [4.2,1.5,40]
 slot_length = 4.1;
-slot_width = 1.4;
+slot_width = 1.32;
 slots = [[slot_length,slot_width, inner_hollow_scale*height], [slot_width,slot_length, inner_hollow_scale*height]];
 
 check_cubes(all=false, top=false, bottom=false, wall=false);
 
 // sharp, postsoft, presoft
-style = "sharp";
+style = "presoft";
 
 
 corner_offset = corner_diameter * sqrt(2);

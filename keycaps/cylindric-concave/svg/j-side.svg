@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="115"
+   height="50"
+   viewBox="0 0 115 50"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="j-side.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.3391305"
+     inkscape:cx="55.627035"
+     inkscape:cy="56.095276"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="115"
+       height="50"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3" />
+  <path
+     d="M 45.553344,29.554663 57.5,25 45.553344,20.445337 v -5.711995 l 19.711983,7.541327 v 5.450662 l -19.711983,7.541327 z"
+     id="text1"
+     style="font-weight:900;font-size:37.3333px;line-height:0.9;font-family:'HarmonyOS Sans';-inkscape-font-specification:'HarmonyOS Sans Heavy';text-align:end;letter-spacing:1px;text-anchor:end;fill:#000000;stroke-width:6.5"
+     aria-label=".&gt;"
+     sodipodi:nodetypes="cccccccc" />
+</svg>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="115"
+   height="50"
+   viewBox="0 0 115 50"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="shift.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.7565217"
+     inkscape:cx="96.759819"
+     inkscape:cy="32.571752"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <g
+     clip-path="url(#clip0_19_1027)"
+     id="g2">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M30.92 17.8V39H38.32V17.8H46.2V11H23V17.8H30.92ZM70.5262 39V11H77.7262V21.0499C78.0892 20.5494 78.5025 20.1194 78.9662 19.76C80.0596 18.9333 81.4329 18.52 83.0862 18.52C84.9796 18.52 86.5929 18.9333 87.9262 19.76C89.2862 20.5867 90.3262 21.7867 91.0462 23.36C91.7662 24.9067 92.1263 26.7867 92.1263 29C92.1263 31.1867 91.7662 33.0667 91.0462 34.64C90.3262 36.2133 89.2862 37.4133 87.9262 38.24C86.5929 39.0667 84.9796 39.48 83.0862 39.48C81.4329 39.48 80.0596 39.0667 78.9662 38.24C78.4409 37.8329 77.9803 37.3352 77.5843 36.7469L77.3662 39H70.5262ZM78.1662 31C77.8729 30.4133 77.7262 29.7467 77.7262 29C77.7262 28.2533 77.8729 27.6 78.1662 27.04C78.4596 26.4533 78.8729 26 79.4062 25.68C79.9396 25.36 80.5396 25.2 81.2062 25.2C81.8729 25.2 82.4596 25.36 82.9662 25.68C83.4729 26 83.8729 26.4533 84.1662 27.04C84.4596 27.6 84.6062 28.2533 84.6062 29C84.6062 29.7467 84.4462 30.4133 84.1262 31C83.8329 31.56 83.4329 32.0133 82.9262 32.36C82.4196 32.68 81.8329 32.84 81.1662 32.84C80.4996 32.84 79.8996 32.68 79.3662 32.36C78.8596 32.0133 78.4596 31.56 78.1662 31ZM60.3703 39L60.2947 37.2607C60.2669 37.2941 60.2388 37.3272 60.2103 37.36C58.9836 38.7734 57.2636 39.48 55.0503 39.48C52.7303 39.48 50.917 38.96 49.6103 37.92C48.3303 36.8534 47.6903 35.3334 47.6903 33.36C47.6903 31.28 48.3303 29.7467 49.6103 28.76C50.917 27.7467 52.7303 27.24 55.0503 27.24H60.0785C60.0589 27.0479 60.0362 26.8612 60.0103 26.68C59.9036 25.9334 59.637 25.3467 59.2103 24.92C58.7836 24.4934 58.0903 24.28 57.1303 24.28C56.4636 24.28 55.917 24.44 55.4903 24.76C55.0636 25.08 54.7036 25.4534 54.4103 25.88L48.1303 23.88C48.6903 22.7867 49.3836 21.84 50.2103 21.04C51.0636 20.24 52.0503 19.6267 53.1703 19.2C54.317 18.7467 55.5836 18.52 56.9703 18.52C59.1036 18.52 60.9303 18.9067 62.4503 19.68C63.9703 20.4534 65.1303 21.5334 65.9303 22.92C66.7303 24.3067 67.1303 25.92 67.1303 27.76V39H60.3703ZM57.8903 31.36H60.1703C60.1703 31.9734 60.037 32.52 59.7703 33C59.5036 33.4534 59.1303 33.8134 58.6503 34.08C58.1703 34.32 57.597 34.44 56.9303 34.44C56.317 34.44 55.837 34.3334 55.4903 34.12C55.1436 33.9067 54.9703 33.6 54.9703 33.2C54.9703 32.6134 55.2236 32.16 55.7303 31.84C56.237 31.52 56.957 31.36 57.8903 31.36Z"
+       fill="black"
+       id="path1" />
+    <rect
+       width="1"
+       height="1"
+       fill="black"
+       id="rect1" />
+    <rect
+       x="114"
+       y="49"
+       width="1"
+       height="1"
+       fill="black"
+       id="rect2" />
+  </g>
+  <defs
+     id="defs3">
+    <clipPath
+       id="clip0_19_1027">
+      <rect
+         width="115"
+         height="50"
+         fill="white"
+         id="rect3" />
+    </clipPath>
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-weight:900;font-size:37.3333px;line-height:0.5;font-family:'HarmonyOS Sans';-inkscape-font-specification:'HarmonyOS Sans Heavy';text-align:end;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000"
+     x="13.723565"
+     y="31.442598"
+     id="text3"><tspan
+       sodipodi:role="line"
+       id="tspan3"></tspan></text>
+</svg>
