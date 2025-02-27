@@ -40,9 +40,8 @@ WIP, check [keymap.c](keymap.c) for full layout for now.
 ![Layout](keyboard-layout-inkscape.png)
 
 ### Keycaps for 3D printing
-This is currently work in progress.
-
-Check [keycaps/README.md](keycaps/README.md) for details. It has some open scad files as long as generated stl files.
+Keycaps were moved into a separate project:
+https://github.com/andruhon/deafpotatokeycaps
 
 ### Matrix
 Generated with http://www.keyboard-layout-editor.com/.
