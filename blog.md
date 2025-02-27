@@ -2,6 +2,12 @@
 
 I was irritated by standard keyboards and mouses decades and tried many different things including MS Ergonomic keyboard and trackballs finding little satisfaction. Adesso WKB-3150UB keyboard with trackball was somewhat close, but still not good enough. 
 
+## 26 Feb 2025
+Moved keycaps into a separate repo https://github.com/andruhon/deafpotatokeycaps
+
+## 19 Oct 2024
+I got sick of VIAL and converted layout to plain QMK.
+
 ## 29 Jul 2024
 I was tinkering with Keychron layout for some time and ended up with 37 keys layout, inspired by Matt Gemmell's Corne layout a lot.
 ![VIA layout for keychron v8](blog-assets/via-layout-for-keychron-v8.png)
