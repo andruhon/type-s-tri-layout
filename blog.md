@@ -4,7 +4,8 @@ I was irritated by standard keyboards and mouses decades and tried many differen
 
 ## 29 Jul 2024
 I was tinkering with Keychron layout for some time and ended up with 37 keys layout, inspired by Matt Gemmell's Corne layout a lot.
-![VIA layout for keychron v8](blog-assets/via-layout-for-keychron-v8.png).
+![VIA layout for keychron v8](blog-assets/via-layout-for-keychron-v8.png)
+
 The Shift as a 37 key sits on the layout because it was not possible to set up auto-shift in VIA without re-flashing the keyboard. This was all looking good so I ordered 42 keys Corne from https://github.com/klouderone
 
 
