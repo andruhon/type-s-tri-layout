@@ -5,8 +5,25 @@ I was irritated by standard keyboards and mouses decades and tried many differen
 ## 26 Feb 2025
 Moved keycaps into a separate repo https://github.com/andruhon/deafpotatokeycaps
 
+## 23 Feb 2025
+Printed first keycaps on P1S with AMS with 0.2mm nozzle. They look really nice!
+
+## 22 October 2024
+Ordered to print my keykaps in Makerspace of local library. It took 10 days to get to the tip of the queue and get my first prototypes.
+I started with flat keycaps from karlh5926@gmail.com (aileron.me), they look really nice and I can paint letter grooves with permanent markers or nail polish.
+While they are nice keycaps with concave are a lot better to type on.
+
+
 ## 19 Oct 2024
 I got sick of VIAL and converted layout to plain QMK.
+
+## 15 Sep 2024
+I reqlizes that extra keys in thumb cluster are only bringing confusion.
+I pulled extra alt and ctrl switches from thumb clasters and plugged them with duct tape. 
+Now the layOut is effectively 34 keys.
+
+## 6 Aug 2024
+Started making side stickers for keys to show extra action on them. This is a lot better than always looking for cheatsheet somewhere on the desk.
 
 ## 4 Aug 2024
 I quickly came to conclusion that sixth columns are excessive and snapped them off. Shift on default layout is unnecessary with auto-shift on.
