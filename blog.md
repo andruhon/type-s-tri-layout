@@ -8,6 +8,9 @@ Moved keycaps into a separate repo https://github.com/andruhon/deafpotatokeycaps
 ## 19 Oct 2024
 I got sick of VIAL and converted layout to plain QMK.
 
+## 4 Aug 2024
+I quickly came to conclusion that sixth columns are excessive and snapped them off. Shift on default layout is unnecessary with auto-shift on.
+
 ## 29 Jul 2024
 I was tinkering with Keychron layout for some time and ended up with 37 keys layout, inspired by Matt Gemmell's Corne layout a lot.
 ![VIA layout for keychron v8](blog-assets/via-layout-for-keychron-v8.png)
