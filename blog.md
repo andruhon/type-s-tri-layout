@@ -10,7 +10,7 @@ Printed first keycaps on P1S with AMS with 0.2mm nozzle. They look really nice!
 
 ## 22 October 2024
 Ordered to print my keykaps in Makerspace of local library. It took 10 days to get to the tip of the queue and get my first prototypes.
-I started with flat keycaps from karlh5926@gmail.com (aileron.me), they look really nice and I can paint letter grooves with permanent markers or nail polish.
+I started with flat keycaps from karlh5926 https://aileron.me/app/keycap , they look really nice and I can paint letter grooves with permanent markers or nail polish.
 While they are nice keycaps with concave are a lot better to type on.
 
 
