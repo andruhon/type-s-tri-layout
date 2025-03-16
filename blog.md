@@ -2,8 +2,15 @@
 
 I was irritated by standard keyboards and mouses decades and tried many different things including MS Ergonomic keyboard and trackballs finding little satisfaction. Adesso WKB-3150UB keyboard with trackball was somewhat close, but still not good enough. 
 
+## 16 Mar 2025
+Renamed the project once again, I think it is the final.
+The new name is TypeS Tri Layout, to emphasize that it is a QMK Tri Layot and that I 
+mostly use it for writing TypeScript.
+
+Keycaps are now https://github.com/andruhon/super-custom-keycaps
+
 ## 26 Feb 2025
-Moved keycaps into a separate repo https://github.com/andruhon/deafpotatokeycaps
+Moved keycaps into a separate repo.
 
 ## 23 Feb 2025
 Printed first keycaps on P1S with AMS with 0.2mm nozzle. They look really nice!
