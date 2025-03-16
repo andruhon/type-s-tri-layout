@@ -1,6 +1,8 @@
 # TypeS Tri Layout
 34 Keys [Tri Layout](https://docs.qmk.fm/features/tri_layer) for QMK optimized for TypeScript and Java.
 
+This layout has customizable keycaps project optimized for 3D printing https://github.com/andruhon/super-custom-keycaps
+
 ## Setting up
 Install QMK following https://docs.qmk.fm/newbs_getting_started
 ```
@@ -38,14 +40,10 @@ qmk flash -kb crkbd -km andruhon -bl uf2-split-right -e CONVERT_TO=promicro_rp20
 WIP, check [keymap.c](keymap.c) for full layout for now.
 ![Layout](keyboard-layout-inkscape.png)
 
-### Keycaps for 3D printing
-Keycaps were moved into a separate project:
-https://github.com/andruhon/deafpotatokeycaps
-
 ### Matrix
 Generated with http://www.keyboard-layout-editor.com/.
 See also [Matrix](matrix.json)
 ![Matrix](matrix.png)
 
-### Motes
+### Notes
 The old VIAL stuff can be found in [VIAL](https://github.com/andruhon/corne3x5/tree/vial) branch.
