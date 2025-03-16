@@ -1,5 +1,5 @@
 # TypeS Tri Layout
-34 Keys (Tri Layout)[https://docs.qmk.fm/features/tri_layer] for QMK optimized for TypeScript and Java.
+34 Keys [Tri Layout](https://docs.qmk.fm/features/tri_layer) for QMK optimized for TypeScript and Java.
 
 ## Setting up
 Install QMK following https://docs.qmk.fm/newbs_getting_started
