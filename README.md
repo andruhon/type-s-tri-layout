@@ -3,6 +3,8 @@
 
 This layout has customizable keycaps project optimized for 3D printing https://github.com/andruhon/super-custom-keycaps
 
+[Corne with TypeS Tri Layout](keyboard.png)
+
 ## Setting up
 Install QMK following https://docs.qmk.fm/newbs_getting_started
 ```
@@ -38,7 +40,6 @@ qmk flash -kb crkbd -km andruhon -bl uf2-split-right -e CONVERT_TO=promicro_rp20
 
 ### Layout
 WIP, check [keymap.c](keymap.c) for full layout for now.
-![Layout](keyboard-layout-inkscape.png)
 
 ### Matrix
 Generated with http://www.keyboard-layout-editor.com/.
