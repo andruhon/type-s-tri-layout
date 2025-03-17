@@ -3,7 +3,7 @@
 
 This layout has customizable keycaps project optimized for 3D printing https://github.com/andruhon/super-custom-keycaps
 
-[Corne with TypeS Tri Layout](keyboard.png)
+![Corne with TypeS Tri Layout](keyboard.png)
 
 ## Setting up
 Install QMK following https://docs.qmk.fm/newbs_getting_started
