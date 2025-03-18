@@ -2,6 +2,10 @@
 
 I was irritated by standard keyboards and mouses decades and tried many different things including MS Ergonomic keyboard and trackballs finding little satisfaction. Adesso WKB-3150UB keyboard with trackball was somewhat close, but still not good enough. 
 
+## 18 Mar 2025
+Updated to QMK 0.28.0. There are mouse keycode changes.
+Mouse codes are now prefixed with MS_, rather than with KC_.
+
 ## 16 Mar 2025
 Renamed the project once again, I think it is the final.
 The new name is TypeS Tri Layout, to emphasize that it is a QMK Tri Layot and that I 
