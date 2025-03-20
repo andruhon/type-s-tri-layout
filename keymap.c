@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // Note KC_LSFT duplicates at Z for a reason, it helps with selecting text with arrows
     [1] = LAYOUT_split_3x5_3(
         KC_ESC,  KC_F7,   KC_F8,   KC_F9,   KC_F12,                             KC_PGUP,  KC_HOME, KC_UP,   KC_END,   KC_BSPC,
-        KC_GRV,  KC_F4,   KC_F5,   KC_F6,   KC_F10,                             KC_PGDN,  KC_LEFT, KC_DOWN, KC_RIGHT, KC_QUOT,
+        KC_GRV,  KC_F4,   KC_F5,   KC_F6,   KC_F10,                             KC_PGDN,  KC_LEFT, KC_DOWN, KC_RGHT,  KC_QUOT,
         KC_LSFT, KC_F1,   KC_F2,   KC_F3,   KC_F11,                             KC_DEL,   KC_TAB,  KC_INS,  KC_APP,   KC_NO,
                                 KC_NO, KC_SPC, _______,           _______,  KC_ENT,  KC_NO
     ),
@@ -51,8 +51,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // RAISE
     // (hold RAISE and N KC_BTN1 to mouse drag and drop, it's like you pinching something)
     [2] = LAYOUT_split_3x5_3(
-        KC_ESC,  MS_BTN2, MS_UP,   MS_BTN1, MS_WHLU,                            KC_MINUS, KC_7,    KC_8,    KC_9,     KC_BSPC,
-        KC_QUOT, MS_LEFT, MS_DOWN, MS_RGHT, MS_WHLD,                            KC_EQUAL, KC_4,    KC_5,    KC_6,     KC_0,
+        KC_ESC,  MS_BTN2, MS_UP,   MS_BTN1, MS_WHLU,                            KC_MINS,  KC_7,    KC_8,    KC_9,     KC_BSPC,
+        KC_QUOT, MS_LEFT, MS_DOWN, MS_RGHT, MS_WHLD,                            KC_EQL,   KC_4,    KC_5,    KC_6,     KC_0,
         MS_BTN3, KC_BSLS, KC_COMM, KC_DOT,  KC_NO,                              KC_BTN1,  KC_1,    KC_2,    KC_3,     MS_ACL0,
                                 KC_NO, KC_SPC, _______,            _______,  KC_ENT, KC_NO
     ),
@@ -62,8 +62,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // ADJUST (HOLD BOTH LOWER AND RAISE).
     // middle row lambdas in TS and Java producing ()=>{} and ()->{} appropriately
     [3] = LAYOUT_split_3x5_3(
-        KC_ESC,  KC_VOLD, KC_MUTE, KC_VOLU, KC_PAUSE,                           KC_PSCR,  KC_CAPS, KC_LBRC, KC_RBRC,  KC_BSPC,
-        KC_TAB,  KC_LPRN, KC_RPRN, KC_SPC,  KC_GRAVE,                           KC_EQUAL, KC_RABK, KC_LCBR, KC_RCBR,  KC_MINUS,
+        KC_ESC,  KC_VOLD, KC_MUTE, KC_VOLU, KC_PAUS,                            KC_PSCR,  KC_CAPS, KC_LBRC, KC_RBRC,  KC_BSPC,
+        KC_TAB,  KC_LPRN, KC_RPRN, KC_SPC,  KC_GRV,                             KC_EQL,   KC_RABK, KC_LCBR, KC_RCBR,  KC_MINS,
         KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, KC_DEL,                             KC_ENT,   KC_RGUI, KC_RALT, KC_RCTL,  KC_RSFT,
                                 KC_NO, KC_SPC, _______,           _______,  KC_ENT,  KC_NO
     )
