@@ -3,7 +3,7 @@
 I was irritated by standard keyboards and mouses decades and tried many different things including MS Ergonomic keyboard and trackballs finding little satisfaction. Adesso WKB-3150UB keyboard with trackball was somewhat close, but still not good enough. 
 
 ## 26 Mar 2025
-Finally produced image of a lyout (as a screenshot from OpenSCAD)
+Finally produced image of the lyout (as a screenshot from OpenSCAD)
 
 ## 18 Mar 2025
 Updated to QMK 0.28.0. There are mouse keycode changes.
