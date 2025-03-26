@@ -59,7 +59,8 @@ unplub USB cable first and only then remove TRS/TRRS cable connecing halves.
 ## Keyboard matrix and layout
 
 ### Layout
-WIP, check [keymap.c](keymap.c) for full layout for now.
+![Layout](layout-20250326.png)
+The source code is in [keymap.c](keymap.c).
 
 ### Matrix
 Generated with http://www.keyboard-layout-editor.com/.
