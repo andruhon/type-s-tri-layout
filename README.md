@@ -5,6 +5,9 @@ I use it with Corne, but I can't see why this can't be used with other 36/34 key
 This layout has [customizable keycaps](https://github.com/andruhon/super-custom-keycaps) project optimized for 3D printing  
 https://github.com/andruhon/super-custom-keycaps
 
+This there's also a version for Apple, to make this Keyboard usable with Mac.
+See tis branch https://github.com/andruhon/type-s-tri-layout/tree/apple-mac
+
 ![Corne with TypeS Tri Layout](keyboard.png)
 
 ## Setting up
