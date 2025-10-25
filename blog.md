@@ -2,6 +2,9 @@
 
 I was irritated by standard keyboards and mouses decades and tried many different things including MS Ergonomic keyboard and trackballs finding little satisfaction. Adesso WKB-3150UB keyboard with trackball was somewhat close, but still not good enough. 
 
+## 26 Oct 2025
+Added layout for Apple Mac.
+
 ## 26 Mar 2025
 Finally produced image of the lyout (as a screenshot from OpenSCAD)
 
