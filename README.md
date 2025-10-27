@@ -41,6 +41,9 @@ Follow instructions at https://github.com/tzarc/qmk_modules/ to install modules.
 This repository already has keymap.json with `tzarc/globe_key`,
 so hopefully this should work.
 
+**Caveats**: at a moment of writing this comment in Os Tahoe Globe+Arrow functionality is somewhat convoluted even with native Apple Keyboard,
+This module does not allow Globe+Ctrl+Arrow and Shift+Globe+Ctrl+Arrow to be used with QMK keyboard (but to be fair it does not work properly with original Apple Keyboard either). See https://github.com/tzarc/qmk_modules/issues/2
+
 ## Compile
 My controller is promicro_rp2040, so I have to use CONVERT_TO,
 to make sure the uf2 file produced.
